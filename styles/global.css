@@ -1,0 +1,157 @@
+body {
+    font-family: Open Sans, Segoe UI, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+nav {
+    top: 0px;
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: start;
+    justify-content: space-between;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    text-transform: uppercase;
+    list-style: none;
+    display: none;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 30px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#request-booking-btn-menu {
+    opacity: 0;
+    padding: 6px 10px;
+    /*background-color: white;*/
+    border: 2px solid #DFB637;
+    transition: .32s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+
+#request-booking-btn-menu:hover {
+    background-color: #DFB637;
+    cursor: default;
+}
+
+#request-booking-btn-menu a:hover {
+    color: white;
+}
+
+nav ul a:hover {
+    color: #FFDE22;
+}
+
+nav #mobile-menu-btn {
+    position: relative;
+    right: 0;
+    top: 15px;
+    color: white;
+    font-size: 30px;
+    user-select: none;
+}
+
+nav #mobile-menu-btn:hover {
+    cursor: pointer;
+}
+
+
+nav #logo {
+    position: relative;
+    top: 10px;
+    background-image: url("../images/temp_logo.png");
+    height: 80px;
+    width: 98px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav #logo:hover {
+    cursor: pointer;
+}
+
+#nav-bg {
+    display: none;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    position: fixed;
+    background-color: #479C53;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.21);
+}
+
+#nav-backdrop {
+    display: none;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0%;
+    position: fixed;
+    background-color: #479C53;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: EBGaramond-Bold;
+    letter-spacing: -0.89px;
+}
+
+.space {
+    height: 100px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: .45s;
+}
+
+.text {
+    margin: 0px 115px;
+}
+
+@media (min-width: 890px) {
+    nav {
+        left: 115px;
+        right: 115px;
+    }
+
+    nav ul {
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+        text-transform: uppercase;
+        list-style: none;
+        display: grid !important;
+        grid-template-columns: auto auto auto auto auto;
+        grid-column-gap: 30px;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    #mobile-menu-btn {
+        display: none;
+    }
+    #desktop-menu {
+        display: inline;
+    }
+}

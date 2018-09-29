@@ -1,0 +1,63 @@
+header {
+	background-image: url("../images/homepage/lalibela_rock_churches.png");
+    height: 550px;
+    /*width: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.overlay {
+	background: rgba(66,53,37,0.52);
+	/*overflow: hidden;*/
+	height: 100%;
+}
+
+.header-container {
+	height: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	display: grid;
+	grid-template-rows: auto 210px;
+	/*justify-content: space-around;*/
+	
+	align-items: center;
+	justify-content: center;
+}
+
+.header-container h1 {
+	align-self: end;
+	font-size: 73px;
+}
+
+#request-booking-btn {
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: bold;
+
+	align-self: start;
+    padding: 6px 10px;
+    /*background-color: white;*/
+    border: 4px solid #DFB637;
+    transition: .32s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.33);
+}
+#request-booking-btn a {
+	text-decoration: none;
+	color: white;
+}
+
+#request-booking-btn:hover {
+    background-color: #DFB637;
+    cursor: pointer;
+}
+
+#request-booking-btn a:hover {
+    color: white;
+}
