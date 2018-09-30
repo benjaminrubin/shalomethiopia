@@ -109,12 +109,48 @@ nav #logo:hover {
 }
 
 
-
 h1 {
     text-align: center;
     color: white;
     font-family: EBGaramond-Bold;
     letter-spacing: -0.89px;
+}
+
+h2 {
+    margin: 0px 0px;
+    text-transform: uppercase;
+    font-family: SecularOne-Regular;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+#about-shalom-ethiopia {
+    color: #479C53;
+}
+
+#the-ethiopian-country {
+    color: #FAD35C;
+}
+
+.body-text {
+    font-family: EBGaramond-Regular;
+    font-size: 1.4em;
+    letter-spacing: -0.22px;
+
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    overflow: overlay;
+}
+
+.black-font-color {
+    color: #000000;
+}
+
+.white-font-color {
+    color: #FFF;
 }
 
 .space {
@@ -126,8 +162,57 @@ h1 {
     transition: .45s;
 }
 
-.text {
-    margin: 0px 115px;
+h3 {
+    position: absolute;
+    font-weight: normal;
+    margin: 0 0;
+}
+
+.btn-container {
+    align-self: center;
+    position: relative;
+    display: block;
+    margin: auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 220px;
+}
+
+.btn-container:hover {
+    cursor: pointer;
+}
+
+.btn-top {
+    position: absolute;
+    /*display: block;*/
+    text-align: center;
+    text-transform: uppercase;
+    font-family: SecularOne-Regular;
+    font-size: 0.85em;
+    padding: 6px 10px;
+    /*specific to button*/
+    color: white;
+    background-color: #D52A49;
+    width: 100%;
+    border: 3px solid #000202;
+    transition: .22s;
+}
+
+.btn-top:hover {
+    transform: translate(-2px, -2px);
+}
+
+.btn-bottom {
+    position: absolute;
+    width: calc(220px + 20px);
+    height: 39px;
+    background: #F9D25B;
+    border: 3px solid #000000;
+    left: 5px;
+    top: 5px;
 }
 
 @media (min-width: 890px) {
