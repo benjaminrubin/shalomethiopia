@@ -74,6 +74,10 @@ header {
 	align-items: center;
 }
 
+.section-1 .btn-container {
+	justify-self: center;
+}
+
 .section-1 .btn-top {
 	background-color: #D52A49;
 }
@@ -91,6 +95,7 @@ header {
 	padding-bottom: 70px;
 	align-items: center;
 }
+
 
 
 .section-2 .btn-top {
@@ -112,6 +117,10 @@ header {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+
+.section-3 .btn-container {
+	justify-self: center;
 }
 
 .section-3 .btn-top {
