@@ -41,10 +41,10 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 220px;
-
+	
+	font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     text-transform: uppercase;
     font-size: 1.4em;
-    font-weight: bold;
 
     align-self: start;
     padding: 6px 10px;

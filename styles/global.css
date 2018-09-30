@@ -25,7 +25,19 @@
        url('../fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
-
+/* secular-one-regular - latin */
+@font-face {
+  font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/secular-one-v2-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Secular One'), local('SecularOne-Regular'),
+       url('../fonts/secular-one-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/secular-one-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/secular-one-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/secular-one-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/secular-one-v2-latin-regular.svg#SecularOne') format('svg'); /* Legacy iOS */
+}
 
 body {
     font-family: 'Open Sans', Segoe UI, sans-serif;
@@ -63,7 +75,7 @@ nav ul {
 nav ul a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
 }
 
 #request-booking-btn-menu {
@@ -153,9 +165,8 @@ h1 {
 h2 {
     margin: 0px 0px;
     text-transform: uppercase;
-    font-family: SecularOne-Regular;
-
-    font-weight: bold;
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    font-weight: 400;
 }
 
 #about-shalom-ethiopia {
@@ -167,9 +178,9 @@ h2 {
 }
 
 .body-text {
-    font-family: EBGaramond-Regular;
+    font-family: EBGaramond-Regular, "Book Antiqua", Palatino, serif;
     font-size: 1em;
-    letter-spacing: -0.22px;
+
 
     padding-left: 30px;
     padding-right: 30px;
