@@ -8,9 +8,12 @@ header {
     overflow: hidden;
 }
 
-h2 {
+.body-text h2 {
 	font-size: 20px;
+	justify-self: center;
 }
+
+
 
 .overlay {
     background: rgba(66, 53, 37, 0.52);
@@ -149,9 +152,15 @@ h2 {
 }
 
 @media (min-width: 890px) {
-	h2 {
+	.body-text h2 {
 		font-size: 24px;
+		justify-self: start;
 	}
+	
+	#instagram-feed {
+		justify-self: center;
+	}
+
     header {
         height: 550px;
         background-position: center -40px;
