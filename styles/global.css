@@ -115,7 +115,7 @@ nav #logo:hover {
 h1 {
     text-align: center;
     color: white;
-    font-family: EBGaramond-Bold;
+    font-family: EBGaramond-Bold, "Book Antiqua";
     letter-spacing: -0.89px;
     opacity: 0;
     text-shadow: 2px 2px 4px #333333;
@@ -125,8 +125,8 @@ h2 {
     margin: 0px 0px;
     text-transform: uppercase;
     font-family: SecularOne-Regular;
+
     font-weight: normal;
-    font-size: 24px;
 }
 
 #about-shalom-ethiopia {
@@ -244,6 +244,10 @@ footer a {
     }
 
     h1 {
+
+    }
+
+    h2 {
 
     }
 
