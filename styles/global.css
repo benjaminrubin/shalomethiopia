@@ -115,7 +115,7 @@ nav #logo:hover {
 h1 {
     text-align: center;
     color: white;
-    font-family: EBGaramond-Bold, "Book Antiqua";
+    font-family: EBGaramond-Bold, "Book Antiqua", Palatino, serif;
     letter-spacing: -0.89px;
     opacity: 0;
     text-shadow: 2px 2px 4px #333333;
