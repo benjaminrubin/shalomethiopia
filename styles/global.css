@@ -42,7 +42,7 @@ nav ul a {
     padding: 6px 10px;
     /*background-color: white;*/
     border: 2px solid #DFB637;
-    transition: .32s;
+    transition: .22s;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
 }
 
@@ -117,6 +117,8 @@ h1 {
     color: white;
     font-family: EBGaramond-Bold;
     letter-spacing: -0.89px;
+	opacity: 0;
+    transition: 2s;
 }
 
 h2 {
@@ -137,7 +139,7 @@ h2 {
 
 .body-text {
     font-family: EBGaramond-Regular;
-    font-size: 1.4em;
+    font-size: 1.2em;
     letter-spacing: -0.22px;
 
     padding-left: 115px;
@@ -207,9 +209,9 @@ h3 {
 .btn-bottom {
     position: absolute;
     width: calc(220px + 20px);
-    height: 39px;
+    height: 37px;
     border: 3px solid #000000;
-    left: 5px;
+    left: 6px;
     top: 5px;
 }
 

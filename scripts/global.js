@@ -49,3 +49,9 @@ $(window).resize(function() {
         $('#nav-backdrop').height(0);
     }
 });
+
+
+$( document ).ready(function() {
+    $('h1').css("opacity",1);
+    $('#request-booking-btn').animate({opacity:1}, 1300);
+});
