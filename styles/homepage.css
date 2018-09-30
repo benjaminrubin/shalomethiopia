@@ -64,7 +64,6 @@ header {
 }
 
 
-
 /*Section 1: General Information*/
 
 .section-1 {
@@ -74,6 +73,13 @@ header {
 	align-items: center;
 }
 
+.section-1 .btn-top {
+	background-color: #D52A49;
+}
+
+.section-1 .btn-bottom {
+	background: #F9D25B;
+}
 
 /*Section 2: About Ethiopia*/
 
@@ -83,4 +89,41 @@ header {
 	grid-template-rows: 60px auto 50px;
 	padding-bottom: 70px;
 	align-items: center;
+}
+
+
+.section-2 .btn-top {
+	background-color: #1C896F;
+}
+
+.section-2 .btn-bottom {
+	background: #D52A49;
+}
+
+
+/*Section 3: Instagram Feed*/
+
+.section-3 {
+	background: #DB9E0E;
+    display: grid;
+	grid-template-rows: 60px auto 50px;
+	padding-bottom: 70px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.section-3 .btn-top {
+	background-color: #D52A49;
+}
+
+.section-3 .btn-bottom {
+	background: #1C896F;
+}
+
+#instagram {
+	fill:white;
+	position: relative;
+	top: 4px;
+	left: 8px;
 }

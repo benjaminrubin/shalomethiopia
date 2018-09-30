@@ -16,6 +16,7 @@ nav {
     grid-template-columns: auto auto;
     align-items: start;
     justify-content: space-between;
+    z-index: 5;
 }
 
 nav ul {
@@ -96,6 +97,7 @@ nav #logo:hover {
     position: fixed;
     background-color: #479C53;
     box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.21);
+    z-index: 5;
 }
 
 #nav-backdrop {
@@ -106,6 +108,7 @@ nav #logo:hover {
     height: 0%;
     position: fixed;
     background-color: #479C53;
+    z-index: 5;
 }
 
 
@@ -169,15 +172,12 @@ h3 {
 }
 
 .btn-container {
-    align-self: center;
     position: relative;
     display: block;
-    margin: auto auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
     width: 220px;
 }
 
@@ -195,7 +195,6 @@ h3 {
     padding: 6px 10px;
     /*specific to button*/
     color: white;
-    background-color: #D52A49;
     width: 100%;
     border: 3px solid #000202;
     transition: .22s;
@@ -209,7 +208,6 @@ h3 {
     position: absolute;
     width: calc(220px + 20px);
     height: 39px;
-    background: #F9D25B;
     border: 3px solid #000000;
     left: 5px;
     top: 5px;
