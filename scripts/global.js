@@ -31,7 +31,7 @@ window.onscroll = function() {
     //displaying request booking btn - this should be based on the offset
     // of the booking request button in the header
     var bookingButtonOffset = $('#request-booking-btn').offset().top;
-    if (window.pageYOffset > bookingButtonOffset - 45) {
+    if (window.pageYOffset > bookingButtonOffset - 27) {
         $('#request-booking-btn-menu').css("opacity",1);
         $('#request-booking-btn-menu').css("cursor","pointer");
         $('#request-booking-btn-menu').css('visibility', 'visible');
@@ -52,6 +52,6 @@ $(window).resize(function() {
 
 
 $( document ).ready(function() {
-    $('h1').css("opacity",1);
+    $('h1').animate({"opacity":1}, 1000);
     $('#request-booking-btn').animate({opacity:1}, 1300);
 });

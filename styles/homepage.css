@@ -1,10 +1,10 @@
 header {
     background-image: url("../images/homepage/lalibela_rock_churches-min.png");
     background-attachment: fixed;
-    height: 550px;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -40px;
+    background-position: -100px -100px;
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ header {
     padding-right: 30px;
     text-align: center;
     display: grid;
-    grid-template-rows: auto 210px;
+    grid-template-rows: auto 140px;
     /*justify-content: space-around;*/
     align-items: center;
     justify-content: center;
@@ -28,11 +28,11 @@ header {
 
 .header-container h1 {
     align-self: end;
-    font-size: 73px;
+    font-size: 53px;
 }
 
 #request-booking-btn {
-	opacity: 0;
+    opacity: 0;
     user-select: none;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@ header {
     /*background-color: white;*/
     border: 4px solid #DFB637;
     transition: .22s;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.33);
 }
 
 #request-booking-btn a {
@@ -65,75 +65,96 @@ header {
 }
 
 
+
+
 /*Section 1: General Information*/
 
 .section-1 {
-	display: grid;
-	grid-template-rows: 60px auto 50px;
-	padding-bottom: 70px;
-	align-items: center;
+    display: grid;
+    grid-template-rows: 60px auto 50px;
+    padding-bottom: 70px;
+    align-items: center;
 }
 
 .section-1 .btn-container {
-	justify-self: center;
+    justify-self: center;
 }
 
 .section-1 .btn-top {
-	background-color: #D52A49;
+    background-color: #D52A49;
 }
 
 .section-1 .btn-bottom {
-	background: #F9D25B;
+    background: #F9D25B;
 }
+
+
 
 /*Section 2: About Ethiopia*/
 
 .section-2 {
     background: #210815;
     display: grid;
-	grid-template-rows: 60px auto 50px;
-	padding-bottom: 70px;
-	align-items: center;
+    grid-template-rows: 60px auto 50px;
+    padding-bottom: 70px;
+    align-items: center;
 }
 
 
 
 .section-2 .btn-top {
-	background-color: #1C896F;
+    background-color: #1C896F;
 }
 
 .section-2 .btn-bottom {
-	background: #D52A49;
+    background: #D52A49;
 }
+
+
 
 
 /*Section 3: Instagram Feed*/
 
 .section-3 {
-	background: #DB9E0E;
+    background: #DB9E0E;
     display: grid;
-	grid-template-rows: 60px auto 50px;
-	padding-bottom: 70px;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+    grid-template-rows: 60px auto 50px;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .section-3 .btn-container {
-	justify-self: center;
+    justify-self: center;
 }
 
 .section-3 .btn-top {
-	background-color: #D52A49;
+    background-color: #D52A49;
 }
 
 .section-3 .btn-bottom {
-	background: #1C896F;
+    background: #1C896F;
 }
 
 #instagram {
-	fill:white;
-	position: relative;
-	top: 4px;
-	left: 8px;
+    fill: white;
+    position: relative;
+    top: 4px;
+    left: 8px;
+}
+
+@media (min-width: 890px) {
+
+    header {
+        height: 550px;
+        background-position: center -40px;
+    }
+    .header-container {
+        grid-template-rows: auto 210px;
+    }
+
+    .header-container h1 {
+        font-size: 73px;
+    }
 }

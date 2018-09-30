@@ -118,7 +118,7 @@ h1 {
     font-family: EBGaramond-Bold;
     letter-spacing: -0.89px;
     opacity: 0;
-    transition: 2s;
+    text-shadow: 2px 2px 4px #333333;
 }
 
 h2 {
@@ -139,11 +139,11 @@ h2 {
 
 .body-text {
     font-family: EBGaramond-Regular;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: -0.22px;
 
-    padding-left: 115px;
-    padding-right: 115px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -177,6 +177,7 @@ h3 {
     position: relative;
     align-items: center;
     margin-top: 50px;
+    font-size: 20px;
 	
 }
 
@@ -213,6 +214,17 @@ h3 {
     /*top: 5px;*/
 }
 
+footer {
+	text-align: center;
+	color: white;
+	background-color: #DD4C13;
+	padding: 10px;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
 @media (min-width: 890px) {
     nav {
         left: 115px;
@@ -231,10 +243,20 @@ h3 {
         justify-content: space-between;
     }
 
+    h1 {
+
+    }
+
     #mobile-menu-btn {
         display: none;
     }
     #desktop-menu {
         display: inline;
     }
+
+    .body-text {
+    font-size: 1.2em;
+    padding-left: 115px;
+    padding-right: 115px;
+}
 }
