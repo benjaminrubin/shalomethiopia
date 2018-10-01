@@ -25,6 +25,7 @@ $.ajax({
 
 function populate(data) {
     for (x in data.data) {
+        console.log(data.data[x]);
     	$('#gallery-container').children('ul').append('<li><img class="photo" src="' + data.data[x].images.standard_resolution.url + '" onclick="window.open(\'' + data.data[x].link + '\')"></li>');
         // $('ul').append('<li><img src="' + data.data[x].images.low_resolution.url + '"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
         // 	// data.data[x].images.thumbnail.url - URL of image 150х150
