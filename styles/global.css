@@ -95,25 +95,6 @@ nav ul a {
     color: white;
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
 }
-
-#request-booking-btn-menu {
-    opacity: 0;
-    padding: 6px 10px;
-    /*background-color: white;*/
-    border: 2px solid #DFB637;
-    transition: .22s;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
-}
-
-#request-booking-btn-menu:hover {
-    background-color: #DFB637;
-    cursor: default;
-}
-
-#request-booking-btn-menu a:hover {
-    color: white;
-}
-
 nav ul a:hover {
     color: #FFDE22;
 }
@@ -170,6 +151,24 @@ nav #logo:hover {
     z-index: 5;
 }
 
+#request-booking-btn-menu {
+    opacity: 0;
+    padding: 6px 10px;
+    /*background-color: white;*/
+    border: 2px solid #DFB637;
+    transition: .22s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+
+#request-booking-btn-menu:hover {
+    background-color: #DFB637;
+    cursor: default;
+}
+
+#request-booking-btn-menu a:hover {
+    color: white;
+}
+
 
 h1 {
     text-align: center;
@@ -180,33 +179,49 @@ h1 {
     text-shadow: 2px 2px 4px #333333;
 }
 
-.body-text h2 {
+h3 {
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    position: absolute;
+    font-weight: normal;
+    margin: 0 0;
+}
+
+.section {
+	width: 100%;
+	min-height: 100px;
+}
+
+.section h2 {
     margin: 0px 0px;
     text-transform: uppercase;
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     font-weight: 400;
 }
 
-#about-shalom-ethiopia {
-    color: #479C53;
-}
-
-#the-ethiopian-country {
-    color: #FAD35C;
-}
-
-.body-text {
+.section-body {
     font-family: EBGaramond-Regular, "Book Antiqua", Palatino, serif;
-    font-size: 1em;
-
-
+    font-size: 1.15em;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 75px;
+	
+	max-width: 1000px;
+	margin: auto auto;
+
+    display: grid;
+    grid-template-rows: 60px auto auto;
+    align-items: center;
+    
 
     overflow: overlay;
 }
+
+.section-body h2 {
+    font-size: 20px;
+    justify-self: center;
+}
+
 
 .black-font-color {
     color: #000000;
@@ -215,28 +230,19 @@ h1 {
 .white-font-color {
     color: #FFF;
 }
-
-.space {
-    height: 100px;
-}
-
 .hidden {
     opacity: 0;
     transition: .45s;
 }
 
-h3 {
-    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
-    position: absolute;
-    font-weight: normal;
-    margin: 0 0;
-}
+
 
 .btn-container {
     position: relative;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 20px;
+    align-self: center;
 }
 
 .btn-container:hover {

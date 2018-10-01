@@ -6,7 +6,7 @@ header {
     height: 253px;
 }
 
-.image {
+header .image {
     position: absolute;
     background-image: url("../images/homepage/lalibela_rock_churches-desktop.png");
     background-attachment: fixed;
@@ -17,8 +17,7 @@ header {
     width: 100%;
 }
 
-
-.overlay {
+header .overlay {
     position: absolute;
     background: rgba(66, 53, 37, 0.52);
     /*overflow: hidden;*/
@@ -26,7 +25,7 @@ header {
     width: 100%;
 }
 
-.header-container {
+header .header-container {
     position: relative;
     height: 100%;
     width: 100%;
@@ -38,17 +37,14 @@ header {
     justify-content: center;
 }
 
-.header-container h1 {
+header .header-container h1 {
     align-self: end;
     font-size: 35px;
 }
 
-.body-text h2 {
-    font-size: 20px;
-    justify-self: center;
-}
 
-#request-booking-btn {
+
+header #request-booking-btn {
     opacity: 0;
     user-select: none;
     margin-left: auto;
@@ -67,17 +63,17 @@ header {
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.33);
 }
 
-#request-booking-btn a {
-    text-decoration: none;
-    color: white;
-}
-
-#request-booking-btn:hover {
+header #request-booking-btn:hover {
     background-color: #DFB637;
     cursor: pointer;
 }
 
-#request-booking-btn a:hover {
+header #request-booking-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+header #request-booking-btn a:hover {
     color: white;
 }
 
@@ -86,50 +82,55 @@ header {
 
 
 
-/*Section 1: General Information*/
 
-.section-1 {
-    display: grid;
-    grid-template-rows: 60px auto 50px;
-    padding-bottom: 70px;
+
+/*Section 1: About Shalom Ethiopia*/
+
+.about-section {
     align-items: center;
 }
 
-.section-1 .btn-container {
+.about-section .btn-container {
     justify-self: center;
 }
 
-.section-1 .btn-top {
+.about-section .btn-top {
     background-color: #D52A49;
 }
 
-.section-1 .btn-bottom {
+.about-section .btn-bottom {
     background: #F9D25B;
 }
 
-
-
-
-
-/*Section 2: About Ethiopia*/
-
-.section-2 {
-    background: #210815;
-    display: grid;
-    grid-template-rows: 60px auto 50px;
-    padding-bottom: 70px;
-    align-items: center;
+.about-section h2 {
+    color: #479C53;
 }
 
 
 
-.section-2 .btn-top {
+
+
+
+/*Section 2: The Ethiopian Country*/
+
+.ethiopia-section {
+    background: #210815;
+    color: white;
+}
+
+
+.ethiopia-section .btn-top {
     background-color: #1C896F;
 }
 
-.section-2 .btn-bottom {
-    background: #D52A49;
+.ethiopia-section .btn-bottom {
+    background-color: #D52A49;
 }
+
+.ethiopia-section h2 {
+    color: #FAD35C;
+}
+
 
 
 
@@ -138,43 +139,75 @@ header {
 
 /*Section 3: Instagram Feed*/
 
-.section-3 {
+.instagram-section {
     background: #DB9E0E;
-    display: grid;
-    grid-template-rows: 60px auto 50px;
-    padding-bottom: 70px;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.section-3 .btn-container {
+.instagram-section .btn-container {
     justify-self: center;
 }
 
-.section-3 .btn-top {
+.instagram-section .btn-top {
     background-color: #D52A49;
 }
 
-.section-3 .btn-bottom {
+.instagram-section .btn-bottom {
     background: #1C896F;
 }
 
-#instagram {
+#instagram-feed {
+    color: white;
+    justify-self: center;
+}
+
+.instagram-section #instagram-icon {
     fill: white;
     position: relative;
     top: 4px;
     left: 8px;
 }
 
+.instagram-section #gallery-container {}
+
+.instagram-section #gallery-container {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+    /*justify-content: space-between;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.instagram-section .photo {
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.27);
+    transition: .32s;
+}
+
+.instagram-section .photo:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.27);
+    transform: translateY(-2px);
+}
+
+
+@media (min-width: 600px) {
+    .instagram-section #gallery-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
 @media (min-width: 890px) {
-    .body-text h2 {
+    .section-body h2 {
         font-size: 24px;
         justify-self: start;
-    }
-
-    #instagram-feed {
-        justify-self: center;
     }
 
     header {
@@ -191,5 +224,14 @@ header {
 
     .header-container h1 {
         font-size: 73px;
+    }
+
+    .instagram-section #gallery-container {
+        grid-template-columns: auto auto auto;
+    }
+
+    .instagram-section .photo {
+        width: 270px;
+        height: 250px;
     }
 }
