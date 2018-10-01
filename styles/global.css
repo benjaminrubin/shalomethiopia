@@ -232,7 +232,7 @@ h3 {
     text-transform: uppercase;
     font-size: 0.85em;
     padding: 6px 10px;
-    width: 180px;
+    width: 190px;
     height: 25px;
     border: 3px solid #000202;
     top: -6px;
@@ -247,7 +247,7 @@ h3 {
 
 .btn-bottom {
     position: relative;
-    width: 200px;
+    width: 210px;
     height: 37px;
     border: 3px solid #000000;
     /*left: 6px;*/
