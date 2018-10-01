@@ -267,8 +267,8 @@ footer a {
 
 @media (min-width: 890px) {
     nav {
-        left: 115px;
-        right: 115px;
+        left: 250px;
+        right: 250px;
     }
 
     nav ul {
@@ -300,7 +300,7 @@ footer a {
 
     .body-text {
     font-size: 1.2em;
-    padding-left: 115px;
-    padding-right: 115px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 }
