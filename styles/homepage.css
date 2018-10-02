@@ -203,8 +203,8 @@ header #request-booking-btn a:hover {
 }
 
 .instagram-section .photo {
-    width: 270px;
-    height: 250px;
+    width: 250px;
+    height: 230px;
     object-fit: cover;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.27);
     transition: .32s;
