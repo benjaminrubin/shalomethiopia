@@ -7,6 +7,9 @@ header {
 }
 
 header .image {
+	
+	/*what's wrong with this image?*/
+
     position: absolute;
     background-image: url("../images/homepage/lalibela_rock_churches-desktop.png");
     background-attachment: fixed;
@@ -49,6 +52,9 @@ header .header-container h1 {
 
 header #request-booking-btn {
     opacity: 0;
+
+	background-color: #DFB637;
+
     user-select: none;
     margin-left: auto;
     margin-right: auto;
@@ -80,11 +86,20 @@ header #request-booking-btn a:hover {
 }
 
 
+/*Ribbons segmenting the sections*/
 
+#ribbon1 {
 
+}
 
+#ribbon2 {
 
+}
 
+/*should be in global */
+#contact-ribbon{
+
+}
 
 
 /*Section 1: About Shalom Ethiopia*/
@@ -203,13 +218,19 @@ header #request-booking-btn a:hover {
 
 
 @media (min-width: 600px) {
+        header .header-container h1 {
+        font-size: 73px;
+    }
+
+    header #request-booking-btn {
+    	background-color: transparent;
+    }
+
     .instagram-section #gallery-container {
         grid-template-columns: auto auto auto;
     }
 
-    header .header-container h1 {
-        font-size: 73px;
-    }
+
 }
 
 
