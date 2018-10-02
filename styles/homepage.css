@@ -3,7 +3,7 @@ header {
     width: 100%;
     /*height: 450px;*/
     overflow: hidden;
-    height: 253px;
+    height: 350px;
 }
 
 header .image {
@@ -31,10 +31,13 @@ header .header-container {
     width: 100%;
     text-align: center;
     display: grid;
-    grid-template-rows: auto 90px;
+    grid-template-rows: 2fr 1fr;
     /*justify-content: space-around;*/
     align-items: center;
     justify-content: center;
+	
+	padding-bottom: 60px;
+
 }
 
 header .header-container h1 {
@@ -50,7 +53,6 @@ header #request-booking-btn {
     margin-left: auto;
     margin-right: auto;
     width: 220px;
-
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     text-transform: uppercase;
     font-size: 1.4em;
@@ -76,6 +78,7 @@ header #request-booking-btn a {
 header #request-booking-btn a:hover {
     color: white;
 }
+
 
 
 
@@ -111,6 +114,7 @@ header #request-booking-btn a:hover {
 
 
 
+
 /*Section 2: The Ethiopian Country*/
 
 .ethiopia-section {
@@ -130,6 +134,7 @@ header #request-booking-btn a:hover {
 .ethiopia-section h2 {
     color: #FAD35C;
 }
+
 
 
 
@@ -201,6 +206,10 @@ header #request-booking-btn a:hover {
     .instagram-section #gallery-container {
         grid-template-columns: auto auto auto;
     }
+
+    header .header-container h1 {
+        font-size: 73px;
+    }
 }
 
 
@@ -222,9 +231,7 @@ header #request-booking-btn a:hover {
         grid-template-rows: auto 210px;
     }
 
-    .header-container h1 {
-        font-size: 73px;
-    }
+
 
     .instagram-section #gallery-container {
         grid-template-columns: auto auto auto;
