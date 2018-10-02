@@ -179,7 +179,7 @@ header #request-booking-btn a:hover {
 .instagram-section #gallery-container {
     list-style: none;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     justify-content: center;
     grid-gap: 20px;
     /*justify-content: space-between;*/
@@ -188,8 +188,8 @@ header #request-booking-btn a:hover {
 }
 
 .instagram-section .photo {
-    width: 170px;
-    height: 150px;
+    width: 270px;
+    height: 250px;
     object-fit: cover;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.27);
     transition: .32s;
