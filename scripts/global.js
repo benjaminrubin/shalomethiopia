@@ -16,13 +16,14 @@ $(function() {
 });
 
 
-//the point on the page at which the opacity changes
-var pageFold = 120;
+//the point on the page at which the nav-bg should show
+var headerLocation = $('.header-container').find('h1').offset().top;
+console.log("location of header is " + headerLocation);
 // adding nav-bg to navigation when scrolling down
 window.onscroll = function() {
     
 	// adding nav-bg to navigation when scrolling down
-    if (window.pageYOffset > pageFold) {
+    if (window.pageYOffset > headerLocation - 60) {
         $('#nav-bg').fadeIn(320);
     } else if ($('#nav-bg').height() < $(document).height()) {
         $('#nav-bg').fadeOut(320);
