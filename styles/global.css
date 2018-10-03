@@ -291,8 +291,7 @@ footer a {
 
 @media (min-width: 890px) {
     nav {
-        left: var(--margin-desktop);
-        right: var(--margin-desktop);
+    	max-width: 983px;
     }
 
     nav ul {

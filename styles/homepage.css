@@ -7,15 +7,11 @@ header {
 }
 
 header .image {
-	
-	/*what's wrong with this image?*/
 
+    /*what's wrong with this image?*/
     position: absolute;
-    background-image: url("../images/homepage/lalibela_rock_churches-desktop.png");
-    background-attachment: fixed;
+    background-image: url("../images/homepage/hamer_tribe.jpg");
     background-size: cover;
-    background-position: -100px -100px;
-    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
@@ -38,14 +34,13 @@ header .header-container {
     /*justify-content: space-around;*/
     align-items: center;
     justify-content: center;
-	
-	padding-bottom: 60px;
 
+    padding-bottom: 60px;
 }
 
 header .header-container h1 {
     align-self: end;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 
@@ -53,22 +48,23 @@ header .header-container h1 {
 header #request-booking-btn {
     opacity: 0;
 
-	background-color: #DFB637;
+
 
     user-select: none;
     margin-left: auto;
     margin-right: auto;
-    width: 220px;
+
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     text-transform: uppercase;
-    font-size: 1.4em;
-
     align-self: start;
-    padding: 6px 10px;
-    /*background-color: white;*/
-    border: 4px solid #DFB637;
     transition: .22s;
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.33);
+    /*Changes with window size*/
+    font-size: 1em;
+    background-color: #DFB637;
+    padding: 4px 6px;
+    width: 160px;
+    border: 4px solid #DFB637;
 }
 
 header #request-booking-btn:hover {
@@ -86,20 +82,21 @@ header #request-booking-btn a:hover {
 }
 
 
+
+
 /*Ribbons segmenting the sections*/
 
-#ribbon1 {
+#ribbon1 {}
 
-}
+#ribbon2 {}
 
-#ribbon2 {
 
-}
 
 /*should be in global */
-#contact-ribbon{
 
-}
+#contact-ribbon {}
+
+
 
 
 /*Section 1: About Shalom Ethiopia*/
@@ -130,6 +127,8 @@ header #request-booking-btn a:hover {
 
 
 
+
+
 /*Section 2: The Ethiopian Country*/
 
 .ethiopia-section {
@@ -149,6 +148,8 @@ header #request-booking-btn a:hover {
 .ethiopia-section h2 {
     color: #FAD35C;
 }
+
+
 
 
 
@@ -218,19 +219,22 @@ header #request-booking-btn a:hover {
 
 
 @media (min-width: 600px) {
-        header .header-container h1 {
+    header .header-container h1 {
         font-size: 73px;
     }
 
     header #request-booking-btn {
-    	background-color: transparent;
+        background-color: transparent;
+        font-size: 1.4em;
+
+        padding: 6px 10px;
+        width: 220px;
+        border: 4px solid #DFB637;
     }
 
     .instagram-section #gallery-container {
         grid-template-columns: auto auto auto;
     }
-
-
 }
 
 
@@ -245,7 +249,13 @@ header #request-booking-btn a:hover {
     }
 
     header .image {
-        background-position: center -40px;
+
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
     }
 
     .header-container {
