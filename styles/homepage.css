@@ -12,6 +12,7 @@ header .image {
     position: absolute;
     background-image: url("../images/homepage/hamer_tribe.jpg");
     background-size: cover;
+    background-position: 60% 0%;
     height: 100%;
     width: 100%;
 }
