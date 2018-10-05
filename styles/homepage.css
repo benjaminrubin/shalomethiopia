@@ -98,16 +98,16 @@ header #request-booking-btn a:hover {
 }
 
 #ribbon-v1 {
-    background-image: url(../images/patterns/ribbon_v1.svg);
+    background-image: url(../images/patterns/ribbon_v1.png);
     background-color: #DB9E0E;
 }
 
 #ribbon-v2 {
-    background-image: url(../images/patterns/ribbon_v2.svg);
+    background-image: url(../images/patterns/ribbon_v2.png);
 }
 
 #ribbon-v3 {
-    background-image: url(../images/patterns/ribbon_v3.svg);
+    background-image: url(../images/patterns/ribbon_v3.png);
 }
 
 #ribbon-v4 {
@@ -116,7 +116,7 @@ header #request-booking-btn a:hover {
 }
 
 #ribbon-v5 {
-    background-image: url(../images/patterns/ribbon_v5.svg);
+    background-image: url(../images/patterns/ribbon_v5.png);
     background-color: #DB9E0E;
 }
 
