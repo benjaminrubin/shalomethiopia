@@ -85,54 +85,6 @@ header #request-booking-btn a:hover {
 
 
 
-
-
-/*Ribbons segmenting the sections*/
-
-.ribbon {
-    position: relative;
-    background-repeat: repeat-x round;
-    width: 100%;
-    background-size: contain;
-    height: 60px;
-}
-
-#ribbon-v1 {
-    background-image: url(../images/patterns/ribbon_v1.png);
-    background-color: #DB9E0E;
-}
-
-#ribbon-v2 {
-    background-image: url(../images/patterns/ribbon_v2.png);
-}
-
-#ribbon-v3 {
-    background-image: url(../images/patterns/ribbon_v3.png);
-}
-
-#ribbon-v4 {
-    background-image: url(../images/patterns/ribbon_v4.png);
-    height: 40px;
-}
-
-#ribbon-v5 {
-    background-image: url(../images/patterns/ribbon_v5.png);
-    background-color: #DB9E0E;
-}
-
-
-
-
-
-/*should be in global */
-
-#contact-ribbon {}
-
-
-
-
-
-
 /*Section 1: About Shalom Ethiopia*/
 
 .about-section {

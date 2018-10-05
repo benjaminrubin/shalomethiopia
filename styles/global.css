@@ -196,7 +196,7 @@ nav #logo:hover {
     height: 100%;
     display: grid;
     grid-gap: 20px;
-    grid-template-rows: auto auto auto auto 100px;
+    grid-template-rows: auto auto auto auto auto 100px;
     align-items: center;
     list-style: none;
     text-align: center;
