@@ -86,6 +86,7 @@ header #request-booking-btn a:hover {
 
 
 
+
 /*Ribbons segmenting the sections*/
 
 .ribbon {
@@ -94,7 +95,6 @@ header #request-booking-btn a:hover {
     width: 100%;
     background-size: contain;
     height: 60px;
-
 }
 
 #ribbon-v1 {
@@ -123,9 +123,11 @@ header #request-booking-btn a:hover {
 
 
 
+
 /*should be in global */
 
 #contact-ribbon {}
+
 
 
 
@@ -162,6 +164,7 @@ header #request-booking-btn a:hover {
 
 
 
+
 /*Section 2: The Ethiopian Country*/
 
 .ethiopia-section {
@@ -181,6 +184,7 @@ header #request-booking-btn a:hover {
 .ethiopia-section h2 {
     color: #FAD35C;
 }
+
 
 
 
@@ -273,6 +277,9 @@ header #request-booking-btn a:hover {
 
 
 @media (min-width: 890px) {
+    .section-body {
+        font-size: 1.15em;
+    }
     .section-body h2 {
         font-size: 24px;
         justify-self: start;
@@ -308,10 +315,10 @@ header #request-booking-btn a:hover {
     }
 
     .ribbon {
-    	height: 110px;
+        height: 110px;
     }
 
     #ribbon-v4 {
-    	height: 80px;
+        height: 80px;
     }
 }
