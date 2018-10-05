@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="120px" viewBox="0 0 81 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ribbon_v3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ribbon_v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-11" fill="#DD4C13" x="-4" y="25" width="90" height="101"></rect>
+        <polygon id="Triangle" fill="#DD4C13" points="13.5 0 27 12 0 12"></polygon>
+        <polygon id="Combined-Shape" fill="#49393A" transform="translate(39.500000, 73.000000) rotate(-270.000000) translate(-39.500000, -73.000000) " points="39.5 40 87 73 39.5 106 -8 73"></polygon>
+        <polygon id="Triangle-Copy" fill="#DD4C13" points="40.5 0 54 12 27 12"></polygon>
+        <polygon id="Triangle-Copy-2" fill="#DD4C13" points="67.5 0 81 12 54 12"></polygon>
+        <path d="M39.5,45 L79,72.5 L39.5,100 L0,72.5 L39.5,45 Z M39.5,52 L10,72.5 L39.5,93 L69,72.5 L39.5,52 Z" id="Combined-Shape" fill="#EAA11E" transform="translate(39.500000, 72.500000) rotate(-90.000000) translate(-39.500000, -72.500000) "></path>
+        <path d="M39,57 L63,73 L39,89 L15,73 L39,57 Z M39,63 L24,73 L39,83 L54,73 L39,63 Z" id="Combined-Shape" fill="#EAA11E" transform="translate(39.000000, 73.000000) rotate(-90.000000) translate(-39.000000, -73.000000) "></path>
+        <circle id="Oval" fill="#49393A" cx="78" cy="49" r="3"></circle>
+        <circle id="Oval-Copy" fill="#49393A" cx="78" cy="97" r="3"></circle>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="86px" viewBox="0 0 78 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ribbon_v5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ribbon_v5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-11" fill="#210815" x="-3" y="-6" width="84" height="72"></rect>
+        <path d="M39,4 L78,31 L39,58 L0,31 L39,4 Z M39,10.8837421 L9.9431831,31 L39,51.1162579 L68.0568169,31 L39,10.8837421 Z" id="Combined-Shape" fill="#EAA11E"></path>
+        <path d="M39,15 L63,31 L39,47 L15,31 L39,15 Z M39,21 L24,31 L39,41 L54,31 L39,21 Z" id="Combined-Shape" fill="#EAA11E"></path>
+        <circle id="Oval" fill="#EAA11E" cx="78" cy="11" r="3"></circle>
+        <circle id="Oval-Copy-2" fill="#EAA11E" cx="0" cy="11" r="3"></circle>
+        <circle id="Oval-Copy" fill="#EAA11E" cx="78" cy="49" r="3"></circle>
+        <circle id="Oval-Copy-3" fill="#EAA11E" cx="0" cy="49" r="3"></circle>
+        <polygon id="Triangle" fill="#210815" transform="translate(65.397623, 80.356034) rotate(-180.000000) translate(-65.397623, -80.356034) " points="65.3976235 74.3560344 78.3976235 86.3560344 52.3976235 86.3560344"></polygon>
+        <polygon id="Triangle-Copy" fill="#210815" transform="translate(39.397623, 80.356034) rotate(-180.000000) translate(-39.397623, -80.356034) " points="39.3976235 74.3560344 52.3976235 86.3560344 26.3976235 86.3560344"></polygon>
+        <polygon id="Triangle-Copy-2" fill="#210815" transform="translate(13.397623, 80.356034) rotate(-180.000000) translate(-13.397623, -80.356034) " points="13.3976235 74.3560344 26.3976235 86.3560344 0.397623483 86.3560344"></polygon>
+    </g>
+</svg>

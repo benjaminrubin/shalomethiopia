@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="86px" viewBox="0 0 78 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ribbon_v2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ribbon_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-11" fill="#DD4C13" x="-3" y="24" width="84" height="66"></rect>
+        <polygon id="Triangle" fill="#DD4C13" points="13 0 26 12 0 12"></polygon>
+        <polygon id="Triangle-Copy" fill="#DD4C13" points="39 0 52 12 26 12"></polygon>
+        <polygon id="Triangle-Copy-2" fill="#DD4C13" points="65 0 78 12 52 12"></polygon>
+        <path d="M39,28 L78,55 L39,82 L0,55 L39,28 Z M39,34.8837421 L9.9431831,55 L39,75.1162579 L68.0568169,55 L39,34.8837421 Z" id="Combined-Shape" fill="#EAA11E"></path>
+        <path d="M39,39 L63,55 L39,71 L15,55 L39,39 Z M39,45 L24,55 L39,65 L54,55 L39,45 Z" id="Combined-Shape" fill="#EAA11E"></path>
+        <circle id="Oval" fill="#EAA11E" cx="78" cy="35" r="3"></circle>
+        <circle id="Oval-Copy-2" fill="#EAA11E" cx="0" cy="35" r="3"></circle>
+        <circle id="Oval-Copy" fill="#EAA11E" cx="78" cy="73" r="3"></circle>
+        <circle id="Oval-Copy-3" fill="#EAA11E" cx="0" cy="73" r="3"></circle>
+    </g>
+</svg>

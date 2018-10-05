@@ -85,17 +85,48 @@ header #request-booking-btn a:hover {
 
 
 
+
 /*Ribbons segmenting the sections*/
 
-#ribbon1 {}
+.ribbon {
+    position: relative;
+    background-repeat: repeat-x round;
+    width: 100%;
+    background-size: contain;
+    height: 60px;
 
-#ribbon2 {}
+}
+
+#ribbon-v1 {
+    background-image: url(../images/patterns/ribbon_v1.svg);
+    background-color: #DB9E0E;
+}
+
+#ribbon-v2 {
+    background-image: url(../images/patterns/ribbon_v2.svg);
+}
+
+#ribbon-v3 {
+    background-image: url(../images/patterns/ribbon_v3.svg);
+}
+
+#ribbon-v4 {
+    background-image: url(../images/patterns/ribbon_v4.svg);
+    height: 40px;
+}
+
+#ribbon-v5 {
+    background-image: url(../images/patterns/ribbon_v5.svg);
+    background-color: #DB9E0E;
+}
+
 
 
 
 /*should be in global */
 
 #contact-ribbon {}
+
 
 
 
@@ -130,6 +161,7 @@ header #request-booking-btn a:hover {
 
 
 
+
 /*Section 2: The Ethiopian Country*/
 
 .ethiopia-section {
@@ -149,6 +181,7 @@ header #request-booking-btn a:hover {
 .ethiopia-section h2 {
     color: #FAD35C;
 }
+
 
 
 
@@ -272,5 +305,13 @@ header #request-booking-btn a:hover {
     .instagram-section .photo {
         width: 270px;
         height: 250px;
+    }
+
+    .ribbon {
+    	height: 110px;
+    }
+
+    #ribbon-v4 {
+    	height: 80px;
     }
 }
