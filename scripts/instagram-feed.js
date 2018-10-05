@@ -1,5 +1,5 @@
 var token = '8031012796.ad8441c.6770778859fc445ea62c55f11f892d20', // learn how to obtain it below
-    num_photos = 3; // how much photos do you want to get
+    num_photos = 6; // how much photos do you want to get
 
 $.ajax({
     url: 'https://api.instagram.com/v1/users/self/media/recent', // or /users/self/media/recent for Sandbox
