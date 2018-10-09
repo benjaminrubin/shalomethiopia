@@ -85,6 +85,8 @@ header #request-booking-btn a:hover {
 
 
 
+
+
 /*Section 1: About Shalom Ethiopia*/
 
 .about-section {
@@ -154,6 +156,11 @@ header #request-booking-btn a:hover {
     background: #DB9E0E;
     justify-content: center;
     text-align: center;
+
+}
+
+.instagram-section .section-body{
+    grid-template-rows: 80px auto auto;
 }
 
 .instagram-section .btn-container {
@@ -180,7 +187,9 @@ header #request-booking-btn a:hover {
     left: 8px;
 }
 
-.instagram-section #gallery-container {}
+.instagram-section #gallery-container {
+
+}
 
 .instagram-section #gallery-container {
     list-style: none;
@@ -229,9 +238,7 @@ header #request-booking-btn a:hover {
 
 
 @media (min-width: 890px) {
-    .section-body {
-        font-size: 1.15em;
-    }
+
     .section-body h2 {
         font-size: 24px;
         justify-self: start;

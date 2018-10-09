@@ -1,5 +1,3 @@
-
-
 //manipulates the opacity of the mobile menu
 
 $(function() {
@@ -21,8 +19,8 @@ var headerLocation = $('.header-container').find('h1').offset().top;
 console.log("location of header is " + headerLocation);
 // adding nav-bg to navigation when scrolling down
 window.onscroll = function() {
-    
-	// adding nav-bg to navigation when scrolling down
+
+    // adding nav-bg to navigation when scrolling down
     if (window.pageYOffset > headerLocation - 60) {
         $('#nav-bg').fadeIn(320);
     } else if ($('#nav-bg').height() < $(document).height()) {
@@ -31,15 +29,22 @@ window.onscroll = function() {
 
     //displaying request booking btn - this should be based on the offset
     // of the booking request button in the header
-    var bookingButtonOffset = $('#request-booking-btn').offset().top;
-    if (window.pageYOffset > bookingButtonOffset - 27) {
-        $('#request-booking-btn-menu').css("opacity",1);
-        $('#request-booking-btn-menu').css("cursor","pointer");
-        $('#request-booking-btn-menu').css('visibility', 'visible');
-    } else {
-    	$('#request-booking-btn-menu').css("opacity",0);
-    	$('#request-booking-btn-menu').css('visibility', 'hidden');
+
+    if (!typeof page === 'undefined'){
+        var bookingButtonOffset = $('#request-booking-btn').offset().top;
+        if (window.pageYOffset > bookingButtonOffset - 27) {
+            $('#request-booking-btn-menu').css("opacity", 1);
+            $('#request-booking-btn-menu').css("cursor", "pointer");
+            $('#request-booking-btn-menu').css('visibility', 'visible');
+        } else {
+            $('#request-booking-btn-menu').css("opacity", 0);
+            $('#request-booking-btn-menu').css('visibility', 'hidden');
+        }
+    } else{
+    	$('#request-booking-btn-menu').css("opacity", 1);
     }
+
+
 }
 
 // removing the navigation backdrop if screen size increases
@@ -52,7 +57,10 @@ $(window).resize(function() {
 });
 
 
-$( document ).ready(function() {
-    $('h1').animate({"opacity":1}, 1000);
-    $('#request-booking-btn').animate({opacity:1}, 1300);
+$(document).ready(function() {
+    $('h1').animate({ "opacity": 1 }, 1000);
+    $('#request-booking-btn').animate({ opacity: 1 }, 1300);
+	if (typeof page === 'undefined'){
+    	$('#request-booking-btn-menu').css("opacity", 1);	
+    } 
 });

@@ -19,6 +19,7 @@
 
 
 
+
 /* open-sans-700 - latin */
 
 v @font-face {
@@ -36,6 +37,7 @@ v @font-face {
 
     /* Legacy iOS */
 }
+
 
 
 
@@ -70,6 +72,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
 }
+
 
 
 
@@ -181,6 +184,7 @@ nav #logo:hover {
 #request-booking-btn-menu a:hover {
     color: white;
 }
+
 
 
 
@@ -341,6 +345,7 @@ h3 {
 
 
 
+
 /*Contact Section (On every page)*/
 
 #contact-section {
@@ -453,5 +458,8 @@ footer a {
 
     #contact-section #logo {
         display: block;
+    }
+    .section-body {
+        font-size: 1.15em;
     }
 }
