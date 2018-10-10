@@ -1,0 +1,131 @@
+    /*declaring CSS variable*/
+    :root {
+        --animationspeed: .3s;
+    }
+
+    .section-body-menu {
+        font-family: EBGaramond-Regular, "Book Antiqua", Palatino, serif;
+        padding-left: 30px;
+        padding-right: 30px;
+        /*padding-top: 10px;*/
+        /*padding-bottom: 10px;*/
+
+        max-width: 1000px;
+        margin: auto auto;
+        overflow: hidden;
+    }
+
+    .menu-header h3 {
+        font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .menu-container {
+        position: relative;
+        /*max-width: 600px;*/
+        min-height: 38px;
+        max-height: 24px;
+        margin: 10px auto;
+        /*border: 1px solid #ECFAF3;*/
+        /*border-radius: 10px;*/
+        overflow: hidden;
+        line-height: 1.6;
+        transition: all var(--animationspeed) ease;
+        box-shadow: 0 1px 2px 0 rgba(0, 100, 0, 0.1);
+    }
+
+
+    .menu-open {
+        max-height: 5000px;
+        transition: all var(--animationspeed) ease;
+    }
+
+    .menu-header {
+        user-select: none;
+        color: #1E886F;
+        padding: 4px 10px;
+        /*padding-top: 3px;
+        padding-left: 10px;*/
+        height: 30px;
+        background-color: #ECFAF3;
+        /*border-radius: 15px 15px 0 0;*/
+        transition: all var(--animationspeed) ease;
+    }
+
+    .menu-header:hover {
+        cursor: pointer;
+        background-color: #DCF4E8;
+    }
+
+    .menu-header h2 {
+        padding-top: 2px;
+        font-size: 17px;
+    }
+
+    .menu-content {
+        padding: 12px;
+        padding-top: 8px;
+        /*font-size: 9px;*/
+        transition: all var(--animationspeed) ease;
+        opacity: 0;
+    }
+
+    .menu-content-open {
+        opacity: 100;
+        transition: 0.5s ease;
+    }
+
+    .arrow {
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        right: 0px;
+        top: 4px;
+        color: #1E886F;
+        transition: all var(--animationspeed) ease;
+    }
+
+    .arrow:hover {
+        cursor: pointer;
+    }
+
+    .arrow-down {
+        /*    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);*/
+        transform: rotate(90deg);
+        transition: all var(--animationspeed) ease;
+    }
+
+    @media (min-width: 890px) {
+
+
+        .menu-container {
+            max-height: 44px;
+            font-size: 18.4px;
+        }
+
+        .menu-header h2 {
+            font-size: 24px;
+        }
+
+        .menu-open {
+            max-height: 5000px;
+        }
+
+        .menu-content {
+            /*font-size: 12px;*/
+        }
+
+        .menu-header {
+            height: 38px;
+            padding: 3px 10px;
+        }
+
+        .arrow {
+            font-size: 34px;
+            top: 5px;
+        }
+    }

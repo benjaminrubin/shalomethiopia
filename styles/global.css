@@ -7,11 +7,15 @@
     src: url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Open Sans Regular'), local('OpenSans-Regular'),
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg');
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg');
     /* Legacy iOS */
 }
 
@@ -29,11 +33,15 @@ v @font-face {
     src: url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.eot');
     /* IE9 Compat Modes */
     src: local('Open Sans Bold'), local('OpenSans-Bold'),
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg');
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg');
 
     /* Legacy iOS */
 }
@@ -52,11 +60,15 @@ v @font-face {
     src: url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Secular One'), local('SecularOne-Regular'),
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.svg#SecularOne') format('svg');
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.svg#SecularOne') format('svg');
     /* Legacy iOS */
 }
 
@@ -66,7 +78,7 @@ v @font-face {
 
 
 body {
-    font-family: 'Open Sans', Segoe UI, sans-serif;
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -242,16 +254,10 @@ h1 {
     text-shadow: 2px 2px 4px #333333;
 }
 
-h3 {
-    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
-    position: absolute;
-    font-weight: normal;
-    margin: 0 0;
-}
 
 .section {
     width: 100%;
-    min-height: 100px;
+    min-height: 30px;
 }
 
 .section h2 {
@@ -276,12 +282,15 @@ h3 {
     grid-template-rows: 60px auto auto;
     align-items: center;
 
-
     overflow: overlay;
 }
 
-.section-body h2 {
+h2 {
     font-size: 20px;
+}
+
+
+.section-body h2 {
     justify-self: center;
 }
 
@@ -359,7 +368,7 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 
-    grid-template-areas: "contact-info contact-info contact-info" "follow follow follow";
+    grid-template-areas: "contact-info contact-info contact-info""follow follow follow";
 
     padding-top: 20px;
     padding-bottom: 40px;
@@ -436,11 +445,14 @@ footer a {
 
     h1 {}
 
-    h2 {}
+    h2 {
+        font-size: 24px;
+    }
 
     #mobile-menu-btn {
         display: none;
     }
+
     #desktop-menu {
         display: inline;
     }
@@ -459,7 +471,9 @@ footer a {
     #contact-section #logo {
         display: block;
     }
+
     .section-body {
-        font-size: 1.15em;
+        font-size: 1.15rem;
+        min-height: 20px;
     }
 }

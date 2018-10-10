@@ -240,7 +240,6 @@ header #request-booking-btn a:hover {
 @media (min-width: 890px) {
 
     .section-body h2 {
-        font-size: 24px;
         justify-self: start;
     }
 

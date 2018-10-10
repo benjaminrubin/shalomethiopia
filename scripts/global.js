@@ -67,3 +67,14 @@ $(document).ready(function() {
     	$('#request-booking-btn-menu').css("opacity", 1);	
     } 
 });
+
+
+
+//Function that opens a menu
+    $(function() {
+        $('.menu-header').click(function() {
+            $(this).parent().find('.menu-content').toggleClass('menu-content-open');
+            $(this).parent().toggleClass('menu-open');
+            $(this).parent().find('.arrow').toggleClass('arrow-down');
+        });
+    });
