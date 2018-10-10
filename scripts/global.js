@@ -16,7 +16,7 @@ $(function() {
 
 //the point on the page at which the nav-bg should show
 var headerLocation = $('.header-container').find('h1').offset().top;
-console.log("location of header is " + headerLocation);
+
 // adding nav-bg to navigation when scrolling down
 window.onscroll = function() {
 
@@ -30,7 +30,9 @@ window.onscroll = function() {
     //displaying request booking btn - this should be based on the offset
     // of the booking request button in the header
 
-    if (!typeof page === 'undefined'){
+    if (typeof page !== 'undefined'){
+    	console.log("constantly here");
+
         var bookingButtonOffset = $('#request-booking-btn').offset().top;
         if (window.pageYOffset > bookingButtonOffset - 27) {
             $('#request-booking-btn-menu').css("opacity", 1);
@@ -57,6 +59,7 @@ $(window).resize(function() {
 });
 
 
+// Request Booking Button opacity
 $(document).ready(function() {
     $('h1').animate({ "opacity": 1 }, 1000);
     $('#request-booking-btn').animate({ opacity: 1 }, 1300);
