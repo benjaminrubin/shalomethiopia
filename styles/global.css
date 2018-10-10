@@ -263,7 +263,7 @@ h3 {
 
 .section {
     width: 100%;
-    min-height: 30px;
+    min-height: 10px;
 }
 
 .section h2 {
