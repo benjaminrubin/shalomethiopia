@@ -190,7 +190,7 @@ nav #logo:hover {
 
 #request-booking-btn-menu:hover {
     background-color: #DFB637;
-    cursor: default;
+    cursor: pointer;
 }
 
 #request-booking-btn-menu a:hover {

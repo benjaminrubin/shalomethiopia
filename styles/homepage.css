@@ -59,7 +59,7 @@ header #request-booking-btn {
     text-transform: uppercase;
     align-self: start;
     transition: .22s;
-    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.33);
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.13);
     /*Changes with window size*/
     font-size: 1em;
     background-color: #DFB637;
