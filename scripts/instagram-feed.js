@@ -1,4 +1,4 @@
-var token = '8031012796.ad8441c.6770778859fc445ea62c55f11f892d20', // learn how to obtain it below
+var token = '8031012796.1677ed0.aa572f5d62d6478b89374d5ef2c2f95d', // learn how to obtain it below
     num_photos = 6; // how much photos do you want to get
 
 $.ajax({
@@ -7,7 +7,7 @@ $.ajax({
     type: 'GET',
     data: { access_token: token, count: num_photos },
     success: function(data) {
-        // console.log(data);
+        console.log(data);
         populate(data);
         // for( x in data.data ){
         // 	$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
