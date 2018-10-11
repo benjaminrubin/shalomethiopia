@@ -261,6 +261,11 @@ h3 {
     margin: 0 0;
 }
 
+h3 a {
+	text-decoration: none;
+	color: white;
+}
+
 .section {
     width: 100%;
     min-height: 10px;
