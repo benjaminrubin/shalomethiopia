@@ -15,13 +15,22 @@ $(function() {
 
 
 //the point on the page at which the nav-bg should show
-var headerLocation = $('.header-container').find('h1').offset().top;
+if ($('.header-container') !== 'undefined') {
+    var headerLocation = $('.header-container').find('h1').offset().top;
+}
+
 
 // adding nav-bg to navigation when scrolling down
 window.onscroll = function() {
 
     // adding nav-bg to navigation when scrolling down
-    if (window.pageYOffset > headerLocation - 60) {
+    if (headerLocation < 60) {
+        if (window.pageYOffset > headerLocation -20) {
+            $('#nav-bg').fadeIn(320);
+        } else if ($('#nav-bg').height() < $(document).height()) {
+            $('#nav-bg').fadeOut(320);
+        }
+    } else if (window.pageYOffset > headerLocation - 60) {
         $('#nav-bg').fadeIn(320);
     } else if ($('#nav-bg').height() < $(document).height()) {
         $('#nav-bg').fadeOut(320);
@@ -30,8 +39,8 @@ window.onscroll = function() {
     //displaying request booking btn - this should be based on the offset
     // of the booking request button in the header
 
-    if (typeof page !== 'undefined'){
-    	console.log("constantly here");
+    if (typeof page !== 'undefined') {
+        console.log("constantly here");
 
         var bookingButtonOffset = $('#request-booking-btn').offset().top;
         if (window.pageYOffset > bookingButtonOffset - 27) {
@@ -42,8 +51,8 @@ window.onscroll = function() {
             $('#request-booking-btn-menu').css("opacity", 0);
             $('#request-booking-btn-menu').css('visibility', 'hidden');
         }
-    } else{
-    	$('#request-booking-btn-menu').css("opacity", 1);
+    } else {
+        $('#request-booking-btn-menu').css("opacity", 1);
     }
 
 
@@ -63,18 +72,18 @@ $(window).resize(function() {
 $(document).ready(function() {
     $('h1').animate({ "opacity": 1 }, 1000);
     $('#request-booking-btn').animate({ opacity: 1 }, 1300);
-	if (typeof page === 'undefined'){
-    	$('#request-booking-btn-menu').css("opacity", 1);	
-    } 
+    if (typeof page === 'undefined') {
+        $('#request-booking-btn-menu').css("opacity", 1);
+    }
 });
 
 
 
 //Function that opens a menu
-    $(function() {
-        $('.menu-header').click(function() {
-            $(this).parent().find('.menu-content').toggleClass('menu-content-open');
-            $(this).parent().toggleClass('menu-open');
-            $(this).parent().find('.arrow').toggleClass('arrow-down');
-        });
+$(function() {
+    $('.menu-header').click(function() {
+        $(this).parent().find('.menu-content').toggleClass('menu-content-open');
+        $(this).parent().toggleClass('menu-open');
+        $(this).parent().find('.arrow').toggleClass('arrow-down');
     });
+});

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- REQUIRED REFERENCES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/global.css">
+    <link rel="stylesheet" href="styles/ribbons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- END OF REQUIRED REFERENCES -->
+    <link rel="stylesheet" type="text/css" href="styles/media-gallery.css">
+    <title>Shalom Ethiopia Tours - Our Tours</title>
+    <!-- using async to speed up load time for website, code will execute when code is parsed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="scripts/global.js" async></script>
+    <script src="scripts/media-feed.js" async></script>
+</head>
+
+<body>
+    <div id="nav-bg"></div>
+    <div id="nav-backdrop">
+        <div id="mobile-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our-tours.html">Our Tours</a></li>
+                <li><a href="about-ethiopia.html">Explore Ethiopia</a></li>
+                <li><a href="media-gallery.html">Media Gallery</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li>
+                    <label id="request-booking-btn-menu-mobile"><a href="">Request Booking</a></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav>
+        <div id="logo" onclick="location.href='index.html';"></div>
+        <label class="material-icons" id="mobile-menu-btn" style="font-size:30px">menu</label>
+        <ul id="desktop-menu">
+            <li>
+                <label id="request-booking-btn-menu"><a href="#">Request Booking</a></label>
+            </li>
+            <li><a href="our-tours.html">Our Tours</a></li>
+            <li><a href="about-ethiopia.html">About Ethiopia</a></li>
+            <li><a href="media-gallery.html">Media</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- end of navigation -->
+    <!-- start of header -->
+    <header class="header-container">
+            <h1>Media Gallery</h1>
+    </header>
+    <!-- end of header -->
+
+<!-- galler container -->
+<div id="gallery-bg">
+    <div id="gallery-container"></div>
+</div>
+
+<!-- end of gallery container -->
+
+
+    
+    <!-- Contact section below -->
+    <div class=" ribbon" id="ribbon-v1"></div>
+    <div id="contact-section">
+        <ul id="contact-info">
+            <li id="heading">Contact Information</li>
+            <li>Email: andy@shalomethiopia.com</li>
+            <li>Phone: +251 92 064 7675</li>
+            <li>Messenger: Shalom Ethiopia Tours</li>
+        </ul>
+        <div id="logo"></div>
+        <div id="follow-buttons">
+            <div id="fb-logo">facebook</div>
+            <div id="insta-logo">instagram</div>
+        </div>
+    </div>
+    <footer>
+        © Shalom Ethiopia, Designed by <a href="www.benjaminrubin.me" style="text-decoration: underline ">Benjamin Floyd Rubin</a></footer>
+</body>
+
+</html>

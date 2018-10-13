@@ -251,7 +251,7 @@ h1 {
     font-family: EBGaramond-Bold, "Book Antiqua", Palatino, serif;
     letter-spacing: -0.89px;
     opacity: 0;
-    text-shadow: 2px 2px 4px #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.21);
 }
 
 h3 {
