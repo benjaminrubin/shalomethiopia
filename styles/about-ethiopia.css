@@ -1,0 +1,146 @@
+/*Header*/
+header {
+    position: relative;
+    width: 100%;
+    /*height: 450px;*/
+    overflow: hidden;
+    height: 250px;
+}
+
+header .image {
+
+    /*what's wrong with this image?*/
+    background-image: url("../images/about-ethiopia/savana.jpg");
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    height: 100%;
+    width: 100%;
+}
+
+header .overlay {
+    position: absolute;
+    background: rgba(66, 53, 37, 0.52);
+    /*overflow: hidden;*/
+    height: 100%;
+    width: 100%;
+}
+
+header .header-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+    /*justify-content: space-around;*/
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 60px;
+}
+
+header .header-container h1 {
+    align-self: end;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+
+
+header #request-booking-btn {
+    opacity: 0;
+
+
+
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    text-transform: uppercase;
+    align-self: start;
+    transition: .22s;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.33);
+    /*Changes with window size*/
+    font-size: 1em;
+    background-color: #DFB637;
+    padding: 4px 6px;
+    width: 160px;
+    border: 4px solid #DFB637;
+}
+
+header #request-booking-btn:hover {
+    background-color: #DFB637;
+    cursor: pointer;
+}
+
+header #request-booking-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+header #request-booking-btn a:hover {
+    color: white;
+}
+
+header .overlay {
+    background: rgba(66, 53, 37, 0.25);
+}
+
+/*end of header*/
+
+h2 {
+    color: #1E886F;
+}
+
+.align-left {
+    justify-self: start !important;
+}
+
+
+.section-body {
+    padding: 30px;
+    grid-template-rows: 60px auto;
+}
+
+
+
+@media (min-width: 600px) {
+    header .header-container h1 {
+        font-size: 73px;
+    }
+
+    header #request-booking-btn {
+        background-color: transparent;
+        font-size: 1.4em;
+
+        padding: 6px 10px;
+        width: 220px;
+        border: 4px solid #DFB637;
+    }
+}
+
+
+
+@media (min-width: 890px) {
+
+    header {
+        height: 580px;
+    }
+
+    header .image {
+
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 20% -300px;
+        /*background-position: top;*/
+        height: 100%;
+        width: 100%;
+    }
+
+    .header-container {
+        grid-template-rows: auto 210px;
+    }
+}
