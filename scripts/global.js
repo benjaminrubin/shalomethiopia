@@ -64,6 +64,7 @@ $(window).resize(function() {
         $('#nav-backdrop').height() > 0) {
         $('#nav-backdrop').fadeOut(320);
         $('#nav-backdrop').height(0);
+        $('#mobile-menu-btn').text("menu");
     }
 });
 
