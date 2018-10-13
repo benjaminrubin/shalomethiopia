@@ -60,7 +60,7 @@ header h1 {
 
 @media (min-width: 600px) {
     header {
-        height: 260px;
+        height: 240px;
     }
 
     header h1 {
