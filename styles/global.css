@@ -145,8 +145,8 @@ nav #logo {
     position: relative;
     top: 10px;
     background-image: url("../images/temp_logo.png");
-    height: 80px;
-    width: 98px;
+    height: 50px;
+    width: 68px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,8 +262,8 @@ h3 {
 }
 
 h3 a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .section {
@@ -452,6 +452,13 @@ footer a {
         grid-column-gap: 30px;
         align-items: start;
         justify-content: space-between;
+    }
+
+    nav #logo {
+        top: 10px;
+        height: 80px;
+        width: 98px;
+
     }
 
     h1 {}
