@@ -5,10 +5,12 @@ $(function() {
         if ($('#nav-backdrop').height() == 0) {
             $('#nav-backdrop').fadeIn(220);
             $('#nav-backdrop').height($(document).height());
+            $('#mobile-menu-btn').text("close");
         } else {
             $('#nav-backdrop').fadeOut(220, function() {
                 $('#nav-backdrop').height(0);
             });
+            $('#mobile-menu-btn').text("menu");
         }
     });
 });
@@ -40,8 +42,6 @@ window.onscroll = function() {
     // of the booking request button in the header
 
     if (typeof page !== 'undefined') {
-        console.log("constantly here");
-
         var bookingButtonOffset = $('#request-booking-btn').offset().top;
         if (window.pageYOffset > bookingButtonOffset - 27) {
             $('#request-booking-btn-menu').css("opacity", 1);
