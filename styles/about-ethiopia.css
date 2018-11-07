@@ -135,13 +135,14 @@ h2 {
     text-transform: uppercase;
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     color: #2E6436;
+    font-size: 13px;
 }
 
 .info-content {
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     background: #2E6436;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.28);
-    font-size: 24px;
+    font-size: 20px;
     color: #F9D25B;
     letter-spacing: -0.46px;
     border-radius: 5px;
@@ -151,21 +152,21 @@ h2 {
 .info-sub {
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     color: #2E6436;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
 /*Make time colon blink*/
 .blink-me {
-  animation: blinker 1.5s infinite;
-  position: relative;
-  top: -2px;
+    animation: blinker 1.5s infinite;
+    position: relative;
+    top: -2px;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+    50% {
+        opacity: 0;
+    }
 }
 
 
@@ -185,8 +186,25 @@ h2 {
         width: 220px;
         border: 4px solid #DFB637;
     }
-        #info-box {
+
+    #info-box {
         grid-template-columns: auto auto auto auto;
+    }
+
+    .info-content {
+        font-size: 24px;
+    }
+
+    .info-sub {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width: 710px) {
+    .info-header {
+        font-size: 18px;
     }
 }
 
@@ -202,9 +220,9 @@ h2 {
     }
 
     .info-container {
-    margin: 10px 10px;
-    min-width: 180px;
-}
+        margin: 10px 10px;
+        min-width: 180px;
+    }
 }
 
 
