@@ -118,6 +118,15 @@ h2 {
     margin: 20px auto;
 }
 
+#general-information {
+    background-color: #479C53;
+    color: white;
+}
+
+#general-information h2 {
+    color: white;
+}
+
 
 #info-box {
     display: grid;
@@ -134,7 +143,8 @@ h2 {
 .info-header {
     text-transform: uppercase;
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
-    color: #2E6436;
+    /*color: #2E6436;*/
+    color: white;
     font-size: 13px;
 }
 
@@ -151,7 +161,8 @@ h2 {
 
 .info-sub {
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
-    color: #2E6436;
+    /*color: #2E6436;*/
+    color: white;
     font-size: 12px;
 }
 
