@@ -38,10 +38,6 @@
     padding-left: 1px;
 }
 
-.selected {
-    background-image: url('../images/about-ethiopia/selected.png');
-}
-
 #map {
     height: 480px;
     width: 100%;
@@ -51,12 +47,12 @@
 
 .destination-header {
     position: relative;
-    left: -4px;
+    left: -16px;
 }
 
 .destination-content {
     margin-top: -5px;
-    padding-left: 38px;
+    padding-left: 20px;
     padding-bottom: 10px;
     display: none;
 }

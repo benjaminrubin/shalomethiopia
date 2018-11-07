@@ -45,6 +45,7 @@ header .header-container h1 {
     align-self: end;
     font-size: 40px;
     padding-bottom: 30px;
+    z-index: 4;
 }
 
 
