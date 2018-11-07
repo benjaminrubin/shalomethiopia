@@ -2,7 +2,7 @@
 
 .ribbon {
     position: relative;
-    background-repeat: repeat-x round;
+    /*background-repeat: repeat-x round;*/
     width: 100%;
     background-size: contain;
     height: 60px;
@@ -14,7 +14,7 @@
 
 #ribbon-v1 {
     background-image: url(../images/patterns/ribbon_v1.png);
-    background-color: #DB9E0E;
+    /*background-color: #DB9E0E;*/
 }
 
 #ribbon-v2 {

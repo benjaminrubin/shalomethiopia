@@ -1,0 +1,180 @@
+/*Navigation Menu*/
+
+nav {
+    top: 0px;
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: start;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    text-transform: uppercase;
+    list-style: none;
+    display: none;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 30px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+}
+
+nav ul a:hover {
+    color: #FFDE22;
+}
+
+nav #mobile-menu-btn {
+    position: relative;
+    right: 0;
+    top: 15px;
+    color: white;
+    font-size: 30px;
+    user-select: none;
+}
+
+nav #mobile-menu-btn:hover {
+    cursor: pointer;
+}
+
+
+nav #logo {
+    position: relative;
+    top: 10px;
+    background-image: url("../images/temp_logo.png");
+    height: 50px;
+    width: 68px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav #logo:hover {
+    cursor: pointer;
+}
+
+#nav-bg {
+    display: none;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    position: fixed;
+    background-color: #479C53;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.21);
+    z-index: 5;
+}
+
+#nav-backdrop {
+    display: none;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0%;
+    position: fixed;
+    background-color: #479C53;
+    z-index: 5;
+}
+
+#request-booking-btn-menu {
+    opacity: 0;
+    padding: 6px 10px;
+    /*background-color: white;*/
+    border: 2px solid #DFB637;
+    transition: .22s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+}
+
+#request-booking-btn-menu:hover {
+    background-color: #DFB637;
+    cursor: pointer;
+}
+
+#request-booking-btn-menu a:hover {
+    color: white;
+}
+
+
+/*Mobile Menu*/
+
+#mobile-menu ul {
+
+    padding: 0px 0px;
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: auto auto auto auto auto 100px;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+#mobile-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#mobile-menu {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    font-size: 20px;
+}
+
+#mobile-menu #request-booking-btn-menu-mobile {
+    padding: 6px 20px;
+    /*background-color: white;*/
+    border: 4px solid #DFB637;
+    font-size: 20px;
+}
+
+#mobile-menu #request-booking-btn-menu-mobile:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 890px) {
+    nav {
+        max-width: 983px;
+    }
+
+    nav ul {
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+        text-transform: uppercase;
+        list-style: none;
+        display: grid !important;
+        grid-template-columns: auto auto auto auto auto;
+        grid-column-gap: 30px;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    nav #logo {
+        top: 10px;
+        height: 80px;
+        width: 98px;
+
+    }
+
+
+    #mobile-menu-btn {
+        display: none;
+    }
+
+    #desktop-menu {
+        display: inline;
+    }
+}

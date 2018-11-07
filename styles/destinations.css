@@ -1,0 +1,93 @@
+#destinations-box {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+.destination-container {
+    /*border-bottom: 1px #9B9B9B solid;*/
+    padding-bottom: 3px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.destination-container h3 {
+    position: re9ative;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2272B5;
+}
+
+.pin {
+    background-image: url('../images/about-ethiopia/pin.png');
+    height: 26px;
+    width: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    left: -12px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Arial';
+    padding-top: 3px;
+    padding-left: 1px;
+}
+
+.selected {
+    background-image: url('../images/about-ethiopia/selected.png');
+}
+
+#map {
+    height: 480px;
+    width: 100%;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.13);
+    /*border-radius: 15px;*/
+}
+
+.destination-header {
+    position: relative;
+    left: 12px;
+}
+
+.destination-content {
+    margin-top: -5px;
+    padding-left: 38px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+@media (min-width: 1000px) {
+    #destinations-box {
+        grid-template-columns: auto 500px;
+        grid-gap: 20px;
+    }
+
+    .destination-container h3 {
+        font-size: 22px;
+    }
+
+    .pin {
+        height: 40px;
+        width: 27px;
+        top: -7px;
+        left: -12px;
+        font-size: 17px;
+        padding-top: 4px;
+        padding-left: 1px;
+    }
+    .destination-content {
+    margin-top: -10px;
+    padding-left: 38px;
+    padding-bottom: 20px;
+}
+#map {
+    height: 660px;
+    /*border-radius: 15px;*/
+}
+}

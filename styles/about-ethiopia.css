@@ -106,8 +106,73 @@ h2 {
 }
 
 
+#flag {
+    background-image: url('../images/about-ethiopia/ethiopian-flag.png');
+    height: 100px;
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.13);
+    justify-self: center;
+    margin: 20px auto;
+}
+
+
+#info-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-container {
+    margin: 8px 8px;
+    min-width: 80px;
+}
+
+.info-header {
+    text-transform: uppercase;
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    color: #2E6436;
+}
+
+.info-content {
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    background: #2E6436;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.28);
+    font-size: 24px;
+    color: #F9D25B;
+    letter-spacing: -0.46px;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+.info-sub {
+    font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
+    color: #2E6436;
+    font-size: 16px;
+}
+
+
+/*Make time colon blink*/
+.blink-me {
+  animation: blinker 1.5s infinite;
+  position: relative;
+  top: -2px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 
 @media (min-width: 600px) {
+
+
     header .header-container h1 {
         font-size: 73px;
     }
@@ -120,6 +185,26 @@ h2 {
         width: 220px;
         border: 4px solid #DFB637;
     }
+        #info-box {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (min-width: 832px) {
+
+
+    .info-content {
+        font-size: 38px;
+        color: #F9D25B;
+        letter-spacing: -0.46px;
+        border-radius: 10px;
+        padding: 4px 8px;
+    }
+
+    .info-container {
+    margin: 10px 10px;
+    min-width: 180px;
+}
 }
 
 

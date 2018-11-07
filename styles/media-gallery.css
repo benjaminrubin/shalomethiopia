@@ -57,6 +57,10 @@ header h1 {
     transform: translateY(-2px);
 }
 
+#ribbon-v1 {
+    background-color: #DB9E0E;
+}
+
 
 @media (min-width: 600px) {
     header {
