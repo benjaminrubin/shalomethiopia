@@ -14,7 +14,7 @@
 
 .destination-container h3 {
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     color: #2272B5;
 }
@@ -51,7 +51,7 @@
 
 .destination-header {
     position: relative;
-    left: 8px;
+    left: -4px;
 }
 
 .destination-content {
