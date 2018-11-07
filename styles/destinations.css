@@ -29,7 +29,7 @@
     display: inline-block;
     position: relative;
     top: -7px;
-    left: -7px;
+    left: 0px;
     color: white;
     text-align: center;
     font-size: 12px;
@@ -47,12 +47,12 @@
 
 .destination-header {
     position: relative;
-    left: -16px;
+    left: -27px;
 }
 
 .destination-content {
     margin-top: -5px;
-    padding-left: 12px;
+    padding-left: 0px;
     padding-bottom: 10px;
     display: none;
 }
