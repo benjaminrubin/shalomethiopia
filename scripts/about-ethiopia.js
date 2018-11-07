@@ -16,6 +16,9 @@ $(document).ready(function() {
     if (min < 10) {
         min = "0" + min;
     }
+    if(hr == 0){
+    	hr = 12;
+    }
 
     $('#ethiopia-time').html(hr + "<span class=\"blink-me\">:</span>" + min + " " + period);
 
