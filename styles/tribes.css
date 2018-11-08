@@ -63,11 +63,12 @@
 
 #hamer {
     background-image: url(../images/about-ethiopia/hamer.JPG);
-    background-position: cetner;
+    background-position: bottom;
 }
 
 #dorze {
     background-image: url(../images/about-ethiopia/dorze.jpg);
+    background-position: bottom;
 }
 
 #mursi {
