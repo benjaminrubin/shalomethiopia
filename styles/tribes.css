@@ -11,7 +11,8 @@
 .tribe-top-layer {
     position: absolute;
     z-index: 3;
-    right: 25px;
+    left: 25px;
+    /*right: 25px;*/
     top: 25px;
 }
 
@@ -46,7 +47,7 @@
 .tribe-image {
     position: relative;
     width: 100%;
-    background-position: bottom;
+    /*background-position: bottom;*/
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
