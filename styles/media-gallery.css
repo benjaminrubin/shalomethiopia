@@ -44,8 +44,8 @@ header h1 {
 }
 
 .photo {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.07);
     transition: .32s;
@@ -101,6 +101,13 @@ header h1 {
         grid-template-columns: auto auto auto auto;
     }
 
+}
 
+@media (min-width: 1555px) {
+
+
+    #gallery-container {
+        grid-template-columns: auto auto auto auto auto;
+    }
 
 }
