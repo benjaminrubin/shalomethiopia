@@ -16,8 +16,8 @@ $(document).ready(function() {
     if (min < 10) {
         min = "0" + min;
     }
-    if(hr == 0){
-    	hr = 12;
+    if (hr == 0) {
+        hr = 12;
     }
 
     $('#ethiopia-time').html(hr + "<span class=\"blink-me\">:</span>" + min + " " + period);
@@ -129,17 +129,31 @@ function initMap() {
 // while hiding the content of all other destinations. Additionally, the destination's
 // pin turns green, as well as its corresponding pin on the map
 
-$(function() {
-    $('.destination-container').click(function() {
-        //if the content is not hidden, hide it
-        if ($(this).find('.destination-content').is(":visible")) {
-            $(this).find('.destination-content').hide();
-        } else {
-            $('.destination-container').find('.pin').removeClass('selected');
-            $('.destination-container').find('.destination-content').hide();
-            $(this).find('.destination-content').show();
 
-            //center the map to the respective pin and slightly zoom in on it
-        }
-    });
+$('.destination-container').click(function() {
+    //if the content is not hidden, hide it
+    if ($(this).find('.destination-content').is(":visible")) {
+        $(this).find('.destination-content').hide();
+    } else {
+        $('.destination-container').find('.pin').removeClass('selected');
+        $('.destination-container').find('.destination-content').hide();
+        $(this).find('.destination-content').show();
+
+        //center the map to the respective pin and slightly zoom in on it
+    }
+});
+
+
+
+//Function for clicking on food items.
+$('.food-container').click(function() {
+    if ($(this).find('.food-overlay').is(":visible")) {
+        $(this).find('.food-overlay').fadeOut(120);
+        $(this).find('.food-description').fadeOut(120);
+    } else {
+        $(this).find('.food-overlay').fadeIn(120);
+        $(this).find('.food-description').fadeIn(120);
+    }
+
+
 });

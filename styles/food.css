@@ -1,11 +1,21 @@
+
+.food-box {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.food-box-column {
+    width: 100%;
+}
+
 .food-container {
     position: relative;
     /*background-position: bottom;*/
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
-    max-width: 400px;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .food-container:hover {
@@ -13,13 +23,11 @@
 }
 
 .food-overlay {
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     position: absolute;
     width: 100%;
     height: 100%;
     display: none;
-    transition: .32s;
-
 }
 
 .food-outline {
@@ -59,16 +67,79 @@
     margin-top: 70px;
     padding: 10px 25px 25px 25px;
     display: none;
-    transition: .32s;
 }
 
 #injera {
     background-image: url(../images/about-ethiopia/injera.png);
+    background-position: left;
+    width: 100%;
+    height: 220px;
+
+}
+
+#bayonet {
+    background-image: url(../images/about-ethiopia/bayonet.png);
+    background-position: left;
+    height: 220px;
+    width: 100%;
+}
+
+#buna {
+    background-image: url(../images/about-ethiopia/buna.png);
+    background-position: left;
+    height: 300px;
+    width: 100%;
+}
+
+#tibs {
+    background-image: url(../images/about-ethiopia/tibs.jpg);
+    background-position: left;
+    height: 200px;
+    width: 100%;
+}
+
+#tej {
+    background-image: url(../images/about-ethiopia/tej.png);
+    background-position: left;
+    height: 300px;
+    width: 100%;
 }
 
 /*Images to place in the Omo Valley foods*/
 
 @media (min-width: 700px) {
+    .food-box {
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
 
+    .food-container:hover .food-overlay {
+        display: block;
+    }
+
+    .food-container:hover .food-description {
+        display: block;
+    }
+
+    #injera {
+        height: 300px;
+    }
+
+    #bayonet {
+        height: 280px;
+
+    }
+
+    #buna {
+        height: 360px;
+    }
+
+    #tibs {
+        height: 320px;
+    }
+
+    #tej {
+        height: 300px;
+    }
 
 }

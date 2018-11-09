@@ -1,3 +1,12 @@
+#omo-tribes {
+	background-color: #F9D25B;
+	color: #2B252E;
+}
+
+#omo-tribes h2 {
+	color: #2B252E;
+}
+
 .tribe-outline {
     position: absolute;
     z-index: 4;

@@ -94,7 +94,14 @@ header .overlay {
 
 h2 {
     color: #1E886F;
+    margin-bottom: 15px !important;
 }
+
+.section-body {
+    padding-bottom: 10px;
+    display: block;
+}
+
 
 .align-left {
     justify-self: start !important;
