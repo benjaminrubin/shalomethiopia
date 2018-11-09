@@ -111,12 +111,12 @@ nav #logo:hover {
 #mobile-menu ul {
 
     padding: 0px 0px;
-    padding-top: 80px;
+    padding-top: 50px;
     width: 100%;
     height: 100%;
     display: grid;
     grid-gap: 20px;
-    grid-template-rows: auto auto auto auto auto 100px;
+    grid-template-rows: auto auto auto auto 60px;
     align-items: center;
     list-style: none;
     text-align: center;
