@@ -10,7 +10,7 @@ header {
 header .image {
 
     /*what's wrong with this image?*/
-    background-image: url("../images/about-ethiopia/savana.jpg");
+    background-image: url("../images/about-ethiopia/savana.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
