@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- REQUIRED REFERENCES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/global.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/request-booking.css">
+    <link rel="stylesheet" href="styles/ribbons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- END OF REQUIRED REFERENCES -->
+    <title>Shalom Ethiopia Tours - Request Booking</title>
+    <!-- using async to speed up load time for website, code will execute when code is parsed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="scripts/global.js" async></script>
+    <script src="scripts/form-validation.js" async></script>
+    <script type="text/javascript">
+    var submitted = false;
+    </script>
+</head>
+
+<body>
+    <div id="nav-bg"></div>
+    <div id="nav-backdrop">
+        <div id="mobile-menu">
+            <ul>
+                <li><a href="index">Home</a></li>
+                <li><a href="our-tours">Our Tours</a></li>
+                <li><a href="about-ethiopia">About Ethiopia</a></li>
+                <li><a href="media-gallery">Media Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav>
+        <div id="logo" onclick="location.href='index';"></div>
+        <label class="material-icons br-font-color" id="mobile-menu-btn" style="font-size:30px; color:#334326;">menu</label>
+        <ul id="desktop-menu">
+            <li><a href="our-tours" class="br-font-color">Our Tours</a></li>
+            <li><a href="about-ethiopia" class="br-font-color">About Ethiopia</a></li>
+            <li><a href="media-gallery" class="br-font-color">Media</a></li>
+        </ul>
+    </nav>
+    <!-- end of navigation -->
+    <header>
+        <div class="header-container">
+            <h1 class="br-font-color">Request Booking Form</h1>
+        </div>
+    </header>
+    <!-- end of header -->
+    <main class="section">
+        <div class="section-body">
+            Hello and thank you for your interest in touring with Shalom Ethiopia!
+            Please fill out the form below, and we will be in touch with you as soon as possible to set up your next adventure.<br />
+        </div>
+    </main>
+    <div class="section">
+        <div class="form-case">
+            <div class="form-body">
+                <form name="bookingform" id="bookingform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSetGl1kiOEWyqosHmcs7k_qFROmiOf-vJTxRupuOXBl7QAFLw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                    <div class="input-box">
+                        <label for="entry.95296602">Full Name<span class="required">*</span></label><br />
+                        <input type="text" name="entry.95296602" id="entry.95296602" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="entry.1345085109">Email Address<span class="required">*</span></label></label> <br>
+                        <input type="email" name="entry.1345085109" id="entry.1345085109" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="entry.2051240585">WhatsApp Number</label><br />
+                        <span class="sub">Please incude country code</span><br />
+                        <input type="tel" name="entry.2051240585" id="entry.2051240585">
+                    </div>
+                    <div class="input-box">
+                        <label for="entry.103209598">City/Town</label> <br>
+                        <input type="text" name="entry.103209598" id="entry.103209598">
+                    </div>
+                    <div class="input-box">
+                        <label for="entry.796581087">Country<span class="required">*</span></label></label> <br>
+                        <input type="text" name="entry.796581087" id="entry.796581087" required>
+                    </div>
+                    <div class="input-box">
+                        Please select the type of trip below<span class="required">*</span><br />
+                        <span class="sub">For a breakdown of the tours, please refer to <a href="our-tours.html" target="_blank">this page</a>.</span>
+                        <div>
+                            <div class="options">
+                                <div>
+                                    <input type="radio" id="entry.1759659067" name="entry.1759659067" value="Private" checked>
+                                    <label for="Private">Private</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="entry.1759659067" name="entry.1759659067" value="Family">
+                                    <label for="Family">Family</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="entry.1759659067" name="entry.1759659067" value="Group">
+                                    <label for="Group">Group</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="entry.1759659067" name="entry.1759659067" value="Documentary, Research or Journalism related">
+                                    <label for="Documentary">Documentary, Research or Journalism related</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            How many people will be going on the trip?<br />
+                            <span class="sub">This can be changed later</span>
+                            <div class="options">
+                                <div>
+                                    <input type="radio" id="entry.2082805496" name="entry.2082805496" value="Single Traveler" checked>
+                                    <label for="Private">Single Traveler</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="entry.2082805496" name="entry.2082805496" value="Couple">
+                                    <label for="Couple">Couple</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="entry.2082805496" name="entry.2082805496" value="3-5 people">
+                                    <label for="3-5 People">3-5 people</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="entry.2082805496" name="entry.2082805496" value="More than 5 people">
+                                    <label for="More than 5 people">More than 5 people</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <label for="entry.1208074259">Desired start date for your trip?</label><br />
+                            <input type="date" id="entry.1208074259" name="entry.1208074259">
+                        </div>
+                        <div class="input-box">
+                            <label for="entry.596499932">Desired end date?</label><br />
+                            <input type="date" id="entry.596499932" name="entry.596499932">
+                        </div>
+                        <div class="input-box">
+                            <label for="entry.141765889">For any additional comments you may have</label><br />
+                            <textarea name="entry.141765889" id="entry.141765889" class="text-area-size"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" id="submit-btn">Submit</button>
+                </form>
+                <div id="submission-message">
+                    Your response was recorded. We will reach out to you soon!
+                </div>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section below -->
+    <div class="ribbon" id="ribbon-v1"></div>
+    <div id="contact-section">
+        <ul id="contact-info">
+            <li id="heading">Contact Information</li>
+            <li>Email: andy@shalomethiopia.com</li>
+            <li>Phone: +251 92 064 7675</li>
+            <li>Messenger: Shalom Ethiopia Tours</li>
+        </ul>
+        <div id="logo"></div>
+        <div id="follow-buttons">
+            <div id="fb-logo">facebook</div>
+            <div id="insta-logo">instagram</div>
+        </div>
+    </div>
+    <footer>
+        © Shalom Ethiopia, Designed by <a href="https://www.benjaminrubin.me" style="text-decoration: underline ">Benjamin Floyd Rubin</a></footer>
+</body>
+
+</html>

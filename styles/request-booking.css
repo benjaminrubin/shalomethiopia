@@ -1,0 +1,139 @@
+h1 {
+    color: #334326;
+}
+
+.br-font-color {
+    color: #334326;
+}
+
+header {}
+
+header .header-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.section-body {
+    padding-bottom: 20px;
+}
+
+.form-case {
+    margin: auto auto;
+    max-width: 1040px;
+}
+
+.form-body {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 20px 30px;
+    border: 1px solid #334326;
+    border-radius: 10px;
+}
+
+.form-body input {
+    font-family: sans-serif;
+    font-size: 12px;
+    border: none;
+    border-bottom: solid 1px #334326;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.required {
+    color: red;
+}
+
+.sub {
+    font-size: 10px;
+}
+
+
+.input-box {
+    margin: 20px 0px;
+}
+
+.options {
+    margin-top: 13px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#submit-btn {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #3B99FC;
+    border: solid 1px #334326;
+    border-radius: 4px;
+    padding: 8px 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#submit-btn:hover {
+    background-color: #1364b5;
+}
+
+#submit-btn:disabled {
+    opacity: .5;
+}
+
+#submit-btn:disabled:hover {
+    cursor: auto;
+    background-color: #3B99FC;
+}
+
+.text-area-size {
+    width: 100%;
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#submission-message {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 660px) {
+    h1 {
+        font-size: 53px;
+    }
+
+    .form-body {
+        font-size: 20px;
+    }
+
+    .form-body input {
+        font-size: 18px;
+    }
+
+    .text-area-size {
+        font-size: 18px;
+    }
+
+
+    .sub {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (min-width: 890px) {
+    header .header-container {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 73px;
+    }
+}
