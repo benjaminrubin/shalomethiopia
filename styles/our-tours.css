@@ -105,7 +105,24 @@ h2 {
     grid-template-rows: 60px auto;
 }
 
+#founder-message {
+    display: grid;
+    grid-template-areas: "andy"
+    "message";
+}
 
+#message {
+    grid-area: message;
+}
+
+#andy {
+    border-radius: 50%;
+    width: 150px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.27);
+    grid-area: andy;
+    display: block;
+    margin: auto auto;
+}
 
 @media (min-width: 600px) {
     header .header-container h1 {
@@ -119,6 +136,15 @@ h2 {
         padding: 6px 10px;
         width: 220px;
         border: 4px solid #DFB637;
+    }
+
+    #andy {
+        width: 200px;
+    }
+
+    #founder-message {
+        grid-template-areas: 'message andy';
+        grid-gap: 30px;
     }
 }
 
