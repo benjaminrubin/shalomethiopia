@@ -92,9 +92,9 @@ function initMap() {
 
 
 
-    for (var key in placeIds) {
+    for (const [key, value] of Object.entries(placeIds)) {
         // console.log(key + ": " + placeIds[key]);
-        geocoder.geocode({ 'placeId': placeIds[key] }, function(results, status) {
+        geocoder.geocode({ 'placeId': value }, function(results, status) {
             if (status === 'OK') {
                 if (results[0]) {
                     // map.setZoom(11);
