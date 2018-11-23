@@ -1,4 +1,4 @@
-var token = '8031012796.1677ed0.aa572f5d62d6478b89374d5ef2c2f95d', // learn how to obtain it below
+var token = '8031012796.8654244.dfb019a1a89f4acdb9b6fe8a950ccd1c', // learn how to obtain it below
     num_photos = 6; // how much photos do you want to get
 
 $.ajax({
