@@ -7,7 +7,7 @@ $.ajax({
     type: 'GET',
     data: { access_token: token, count: num_photos },
     success: function(data) {
-        console.log(data);
+        // console.log(data);
         populate(data);
         // for( x in data.data ){
         // 	$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
