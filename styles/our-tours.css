@@ -10,7 +10,7 @@ header {
 header .image {
 
     /*what's wrong with this image?*/
-    background-image: url("../images/our-tours/offroad-jeep.png");
+    background-image: url("../images/our-tours/offroad-jeep.jpg");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;

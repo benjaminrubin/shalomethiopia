@@ -10,7 +10,7 @@ header .image {
 
     /*what's wrong with this image?*/
     position: absolute;
-    background-image: url("../images/homepage/hamer_tribe.png");
+    background-image: url("../images/homepage/hamer_tribe.jpg");
     background-size: cover;
     background-position: 60% 0%;
     height: 100%;

@@ -70,7 +70,7 @@
 }
 
 #injera {
-    background-image: url(../images/about-ethiopia/injera.png);
+    background-image: url(../images/about-ethiopia/injera.jpg);
     background-position: left;
     width: 100%;
     height: 220px;
@@ -78,28 +78,28 @@
 }
 
 #bayonet {
-    background-image: url(../images/about-ethiopia/bayonet.png);
+    background-image: url(../images/about-ethiopia/bayonet.jpg);
     background-position: left;
     height: 220px;
     width: 100%;
 }
 
 #buna {
-    background-image: url(../images/about-ethiopia/buna.png);
+    background-image: url(../images/about-ethiopia/buna.jpg);
     background-position: left;
     height: 300px;
     width: 100%;
 }
 
 #tibs {
-    background-image: url(../images/about-ethiopia/tibs.png);
+    background-image: url(../images/about-ethiopia/tibs.jpg);
     background-position: left;
     height: 200px;
     width: 100%;
 }
 
 #tej {
-    background-image: url(../images/about-ethiopia/tej.png);
+    background-image: url(../images/about-ethiopia/tej.jpg);
     background-position: left;
     height: 300px;
     width: 100%;
