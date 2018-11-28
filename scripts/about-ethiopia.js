@@ -125,9 +125,8 @@ function initMap() {
 
 
 
-//Function that clicking on a destination displays the destionation's content
-// while hiding the content of all other destinations. Additionally, the destination's
-// pin turns green, as well as its corresponding pin on the map
+//Function that clicking on a destination displays the destination's content
+// while hiding the content of all other destinations.
 
 
 $('.destination-container').click(function() {
