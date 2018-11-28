@@ -131,16 +131,7 @@ $(document).ready(function() {
     });
 
 
-
-    //Validate date, conditions:
-    //		- start date AND end date is not today or earlier
-    //		- if there is an end date, then it should be at least one 
-    //			after the start date
-
-
-
-
-
+    //Enable the submit button if inputs are valid
     $("#bookingform :input").change(function() {
         if (nameValid && emailValid && cityValid && countryValid && phoneValid && startValid && endValid) {
             $("#submit-btn").removeAttr("disabled");
@@ -149,10 +140,5 @@ $(document).ready(function() {
         }
     });
 
-
-});
-
-
-$(document).ready(function() {
 
 });
