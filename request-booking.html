@@ -69,26 +69,27 @@
         <div class="form-case">
             <div class="form-body">
                 <form name="bookingform" id="bookingform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSetGl1kiOEWyqosHmcs7k_qFROmiOf-vJTxRupuOXBl7QAFLw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+
                     <div class="input-box">
                         <label for="entry.95296602">Full Name:<span class="required">*</span></label><br />
-                        <input type="text" name="entry.95296602" id="entry.95296602" required>
+                        <input type="text" name="entry.95296602" id="entry.95296602" required> <span class="error-message"></span>
                     </div>
                     <div class="input-box">
                         <label for="entry.1345085109">Email Address:<span class="required">*</span></label></label> <br>
-                        <input type="email" name="entry.1345085109" id="entry.1345085109" required>
+                        <input type="email" name="entry.1345085109" id="entry.1345085109" required> <span class="error-message"></span>
                     </div>
                     <div class="input-box">
                         <label for="entry.2051240585">Phone/WhatsApp Number:</label><br />
-                        <span class="sub">Please incude country code</span><br />
-                        <input type="tel" name="entry.2051240585" id="entry.2051240585">
+                        <span class="sub">Please include country code</span><br />
+                        <input type="tel" name="entry.2051240585" id="entry.2051240585"> <span class="error-message"></span>
                     </div>
                     <div class="input-box">
                         <label for="entry.103209598">City/Town:</label> <br>
-                        <input type="text" name="entry.103209598" id="entry.103209598">
+                        <input type="text" name="entry.103209598" id="entry.103209598"> <span class="error-message"></span>
                     </div>
                     <div class="input-box">
                         <label for="entry.796581087">Country:<span class="required">*</span></label></label> <br>
-                        <input type="text" name="entry.796581087" id="entry.796581087" required>
+                        <input type="text" name="entry.796581087" id="entry.796581087" required> <span class="error-message"></span>
                     </div>
                     <div class="input-box">
                         Select the type of trip you would like to book:<br />
@@ -138,18 +139,18 @@
                         </div>
                         <div class="input-box">
                             <label for="entry.1208074259">Desired start date for your trip:</label><br />
-                            <input type="date" id="entry.1208074259" name="entry.1208074259">
+                            <input type="date" id="entry.1208074259" name="entry.1208074259"><span class="error-message"></span>
                         </div>
                         <div class="input-box">
                             <label for="entry.596499932">Desired end date:</label><br />
-                            <input type="date" id="entry.596499932" name="entry.596499932">
+                            <input type="date" id="entry.596499932" name="entry.596499932"><span class="error-message"></span>
                         </div>
                         <div class="input-box">
                             <label for="entry.141765889">For any additional information, please share below:</label><br />
                             <textarea name="entry.141765889" id="entry.141765889" class="text-area-size"></textarea>
                         </div>
                     </div>
-                    <button type="submit" id="submit-btn">Submit Form</button>
+                    <button type="submit" id="submit-btn" disabled>Submit Form</button>
                 </form>
                 <div id="submission-message">
                     Your response was recorded. We will reach out to you soon!
