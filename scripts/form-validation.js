@@ -104,8 +104,6 @@ $(document).ready(function() {
     $("#entry\\.1208074259").change(function() {
         var start = new Date(document.forms["bookingform"]["entry.1208074259"].value);
         var now = new Date();
-        console.log("start is " + start);
-        console.log("now is " + now);
         if (start < now) {
             $("#entry\\.1208074259").parent().find('.error-message').html("Start date must be in the future");
             startValid = false;
