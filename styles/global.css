@@ -283,7 +283,7 @@ footer {
     background-color: #DD4C13;
     text-transform: uppercase;
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     padding-bottom: 10px;
 }
 
@@ -322,5 +322,9 @@ footer a {
     .section-body {
         font-size: 1.15rem;
         min-height: 20px;
+    }
+
+    footer {
+        font-size: 12px;
     }
 }
