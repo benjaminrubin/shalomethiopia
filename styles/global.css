@@ -6,22 +6,13 @@
     font-weight: 400;
     src: url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.eot');
     /* IE9 Compat Modes */
-    src: local('Open Sans Regular'), local('OpenSans-Regular'),
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff') format('woff'),
-        /* Modern Browsers */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg');
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg');
     /* Legacy iOS */
 }
-
-
-
-
 
 
 /* open-sans-700 - latin */
@@ -32,23 +23,13 @@ v @font-face {
     font-weight: 700;
     src: url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.eot');
     /* IE9 Compat Modes */
-    src: local('Open Sans Bold'), local('OpenSans-Bold'),
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff') format('woff'),
-        /* Modern Browsers */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg');
-
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg');
     /* Legacy iOS */
 }
-
-
-
-
 
 
 /* secular-one-regular - latin */
@@ -59,23 +40,17 @@ v @font-face {
     font-weight: 400;
     src: url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.eot');
     /* IE9 Compat Modes */
-    src: local('Secular One'), local('SecularOne-Regular'),
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff') format('woff'),
-        /* Modern Browsers */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.svg#SecularOne') format('svg');
+    src: local('Secular One'), local('SecularOne-Regular'), url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('https://raw.githubusercontent.com/benjaminrubin/shalomethiopia/master/fonts/secular-one-v2-latin-regular.svg#SecularOne') format('svg');
     /* Legacy iOS */
 }
 
 :root {
     --margin-desktop: 225px;
 }
-
 
 body {
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
@@ -84,7 +59,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
 }
-
 
 h1 {
     text-align: center;
@@ -123,19 +97,15 @@ h3 a {
     font-family: EBGaramond-Regular, "Book Antiqua", Palatino, serif;
     font-size: 0.9em;
     /*text-align: justify;*/
-
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 55px;
-
     max-width: 1000px;
     margin: auto auto;
-
     display: grid;
     grid-template-rows: 60px auto auto;
     align-items: center;
-
     overflow: overlay;
 }
 
@@ -143,11 +113,9 @@ h2 {
     font-size: 20px;
 }
 
-
 .section-body h2 {
     justify-self: center;
 }
-
 
 .black-font-color {
     color: #000000;
@@ -161,8 +129,6 @@ h2 {
     opacity: 0;
     transition: .45s;
 }
-
-
 
 .btn-container {
     position: relative;
@@ -210,18 +176,11 @@ h2 {
 #contact-section {
     color: white;
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
-
-
-
     background-color: #DD4C13;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-
-    grid-template-areas: "contact-info contact-info contact-info"
-    "logo logo logo"
-    "follow follow follow";
-
+    grid-template-areas: "contact-info contact-info contact-info" "logo logo logo" "follow follow follow";
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -281,10 +240,10 @@ footer {
     text-align: center;
     color: white;
     background-color: #DD4C13;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Secular One', 'Open Sans', Segoe UI, sans-serif;
     font-size: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 footer a {
@@ -292,39 +251,59 @@ footer a {
     color: white;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 890px) {
-
     h1 {}
-
     h2 {
         font-size: 24px;
     }
-
     .body-text {
         font-size: 1.2em;
         max-width: 983px;
         /*padding-left: var(--margin-desktop);*/
         /*padding-right: var(--margin-desktop);*/
     }
-
     #contact-info {
         text-align: left;
     }
-
     #contact-section {
         grid-template-areas: "contact-info logo follow";
     }
-
     #contact-section #logo {
         display: block;
     }
-
     .section-body {
         font-size: 1.15rem;
         min-height: 20px;
     }
-
     footer {
         font-size: 12px;
+    }
+}
+
+
+/* Branja Logo */
+
+#branja-logo {
+    filter: grayscale(100%);
+    transition: .12s;
+    position: relative;
+    left: 2px;
+    top: 9px;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+#branja-url:hover #branja-logo {
+    filter: grayscale(0%);
+}
+
+@media (min-width: 600px) {
+    #branja-logo {
+        width: 1.675rem;
+        height: 1.675rem;
     }
 }
