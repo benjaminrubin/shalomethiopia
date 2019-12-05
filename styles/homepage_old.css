@@ -158,16 +158,20 @@ header #request-booking-btn a:hover {
     left: 8px;
 }
 
-.instagram-section .instagram_gallery {
+.instagram-section #gallery-container {}
+
+.instagram-section #gallery-container {
+    list-style: none;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    align-items: center;
-    justify-items: center;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    /*justify-content: space-between;*/
+    padding: 0px;
+    margin: 0px;
 }
 
-.instagram_gallery img {
+.instagram-section img {
     width: 250px;
     height: 230px;
     object-fit: cover;
@@ -175,7 +179,7 @@ header #request-booking-btn a:hover {
     transition: .32s;
 }
 
-.instagram_gallery img:hover {
+.instagram-section img:hover {
     cursor: pointer;
     box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.27);
     transform: translateY(-2px);
@@ -192,8 +196,8 @@ header #request-booking-btn a:hover {
         width: 220px;
         border: 4px solid #DFB637;
     }
-    .instagram-section .instagram_gallery {
-        grid-template-columns: auto auto;
+    .instagram-section #gallery-container {
+        grid-template-columns: auto auto auto;
     }
 }
 
@@ -215,10 +219,10 @@ header #request-booking-btn a:hover {
     .header-container {
         grid-template-rows: auto 210px;
     }
-    .instagram-section .instagram_gallery {
+    .instagram-section #gallery-container {
         grid-template-columns: auto auto auto;
     }
-    .instagram_gallery img {
+    .instagram-section img {
         width: 270px;
         height: 250px;
     }

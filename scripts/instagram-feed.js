@@ -7,7 +7,7 @@ $.ajax({
     type: 'GET',
     data: { access_token: token, count: num_photos },
     success: function(data) {
-        // console.log(data);
+        console.log(data);
         populate(data);
         // for( x in data.data ){
         // 	$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
@@ -17,7 +17,7 @@ $.ajax({
         // }
     },
     error: function(data) {
-        // console.log(data); // send the error notifications to console
+        console.log(data); // send the error notifications to console
     }
 });
 
@@ -26,7 +26,7 @@ $.ajax({
 function populate(data) {
     for (x in data.data) {
         // console.log(data.data[x]);
-    	$('#gallery-container').append('<li><img class="photo" src="' + data.data[x].images.standard_resolution.url + '" onclick="window.open(\'' + data.data[x].link + '\')"></li>');
+        $('#gallery-container').append('<li><img class="photo" src="' + data.data[x].images.standard_resolution.url + '" onclick="window.open(\'' + data.data[x].link + '\')"></li>');
         // $('ul').append('<li><img src="' + data.data[x].images.low_resolution.url + '"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
         // 	// data.data[x].images.thumbnail.url - URL of image 150х150
         // 	// data.data[x].images.standard_resolution.url - URL of image 612х612

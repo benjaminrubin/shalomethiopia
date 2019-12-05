@@ -23,65 +23,6 @@ header h1 {
     padding-bottom: 30px;
 }
 
-.instagram_gallery {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    grid-gap: 10px;
-}
-
-.instagram_gallery img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.07);
-    transition: .32s;
-}
-
-.instagram_gallery img:hover {
-    cursor: pointer;
-    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.07);
-    transform: translateY(-2px);
-}
-
-@media (min-width: 600px) {
-    header {
-        height: 240px;
-    }
-    header h1 {
-        font-size: 73px;
-    }
-}
-
-@media (min-width: 670px) {
-    .instagram_gallery {
-        grid-template-columns: auto auto;
-    }
-}
-
-@media (min-width: 1000px) {
-    .instagram_gallery {
-        grid-template-columns: auto auto auto;
-    }
-}
-
-@media (min-width: 1320px) {
-    .instagram_gallery {
-        grid-template-columns: auto auto auto auto;
-    }
-}
-
-@media (min-width: 1555px) {
-    .instagram_gallery {
-        grid-template-columns: auto auto auto auto auto;
-    }
-}
-
-
-/* Legacy Code */
-
 #gallery-container {
     list-style: none;
     display: grid;
